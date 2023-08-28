@@ -54,3 +54,13 @@ p {
 #logo {
     font-size: 280%;
 }
+
+#all-knights {
+    height: 150px;
+    display: flex;
+}
+
+.knight {
+    width: 20%;
+    margin-top: 30px;
+}
