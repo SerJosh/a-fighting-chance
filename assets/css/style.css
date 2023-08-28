@@ -115,3 +115,44 @@ p {
     border-width: 2px;
     border-color: white;
 }
+
+.button-spacing {
+    margin: 20px;
+    font-size: 150%;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    background-color: darkgreen;
+    color: #fafafa;
+    background: linear-gradient(45deg);
+    clip-path: polygon(15px 0,
+            calc(100% - 15px) 0,
+            100% 15px,
+            100% calc(100% - 15px),
+            calc(100% - 15px) 100%,
+            15px 100%,
+            0 calc(100% - 15px),
+            0 15px);
+}
+
+.button-spacing:hover {
+    background-color: #fafafa;
+    color: black;
+}
+
+#name {
+    background: transparent;
+    color: white;
+    width: 50%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Pirata One", sans-serif;
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+#name:hover {
+    border: 2px solid white;
+}
