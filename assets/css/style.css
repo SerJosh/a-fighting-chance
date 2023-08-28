@@ -21,3 +21,11 @@ body {
     text-align: center;
     color: white;
 }
+
+h1,
+h2 {
+    font-family: "Pirata One", sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    font-size: 300%;
+}
