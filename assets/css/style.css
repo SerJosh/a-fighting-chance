@@ -23,7 +23,8 @@ body {
 }
 
 h1,
-h2, button {
+h2,
+button {
     font-family: "Pirata One", sans-serif;
     letter-spacing: 2px;
     font-size: 300%;
