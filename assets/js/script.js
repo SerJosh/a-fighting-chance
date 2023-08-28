@@ -1,4 +1,6 @@
-function update() {
+/** How to Play onclick function */
+
+function howtoplay() {
     var gfg_down =
         document.getElementById("phone-screen");
     gfg_down.remove();
@@ -11,7 +13,9 @@ function update() {
   <button class="button-spacing" onclick="myRestore();">Back</button>`;
 }
 
-function update2() {
+/** About the Game onclick function */
+
+function aboutthegame() {
     var gfg_down =
         document.getElementById("phone-screen");
     gfg_down.remove();
@@ -24,12 +28,14 @@ function update2() {
   <button class="button-spacing" onclick="myRestore();">Back</button>`;
 }
 
+/** Back button onclick function */
+
 function myRestore() {
     var gfg_down =
         document.getElementById("empty-box");
     gfg_down.remove();
 
-    let empyBox = document.getElementById('page2');
+    let empyBox = document.getElementById('landing-page');
     empyBox.innerHTML = ` <div id="phone-screen">
         <header><h1 id="logo">A Fighting Chance</h1></header>
         <div id="all-knights">
@@ -52,11 +58,11 @@ function myRestore() {
         <div><label for="name"></label>
         <input id="name" name="name" type="text" class="text-input" placeholder="Your name" required>
         <br>
-        <button class="button-spacing" id="start-game-btn" type="submit" onclick="update3();">Play</button>
+        <button class="button-spacing" id="start-game-btn" type="submit" onclick="play();">Play</button>
         <br>
-        <button class="button-spacing" onclick="update();">How to Play</button>
+        <button class="button-spacing" onclick="howtoplay();">How to Play</button>
         <br>
-        <button class="button-spacing" onclick="update2();">About the Game</button></div>
+        <button class="button-spacing" onclick="aboutthegame();">About the Game</button></div>
         <footer><footer>
             <ul>
                 <li>
@@ -76,18 +82,18 @@ function myRestore() {
                 </ul></footer>
       </div>
     <div id="empty-box"></div>
-    <div id="page2"></div>
-    <div id="page3"></div>
+    <div id="landing-page"></div>
+    <div id="game-page"></div>
     </div>`;
 }
 
-function update3() {
+/** Play onclick function */
+
+function play() {
     var gfg_down =
         document.getElementById("phone-screen");
     gfg_down.remove();
 
-    let empyBox = document.getElementById('page3');
+    let empyBox = document.getElementById('game-page');
     empyBox.innerHTML = ` <h2>Game Area<h2>`;
-
-
 }
