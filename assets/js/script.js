@@ -80,3 +80,14 @@ function myRestore() {
     <div id="page3"></div>
     </div>`;
 }
+
+function update3() {
+    var gfg_down =
+        document.getElementById("phone-screen");
+    gfg_down.remove();
+
+    let empyBox = document.getElementById('page3');
+    empyBox.innerHTML = ` <h2>Game Area<h2>`;
+
+
+}
