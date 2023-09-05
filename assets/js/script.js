@@ -188,3 +188,14 @@ function game() {
         userPickElement.innerHTML = '';
         pcPickElement.innerHTML = '';
     }
+
+    function calculateScore(roundResult) {
+        currentScore += roundResult;
+        updateScoreBoard();
+    }
+
+    function retrieveScoreFromLocalStorage() {
+        const score = +window.localStorage.getItem('gameScore') || 0;
+        currentScore = score;
+        updateScoreBoard();
+    }
