@@ -101,3 +101,11 @@
 document.getElementById("start-game-btn").addEventListener("click", function () {
     window.location.href = "#game-page";
 });
+
+const userChoiceElement = document.querySelector('#all-knights-game');
+const pickedElement = document.querySelector('.game-zone');
+const userPickElement = document.querySelector('#game-left');
+const pcPickElement = document.querySelector('#game-right');
+const resultElement = document.querySelector('#vs');
+const resultTitleElement = resultElement.querySelector('#result');
+const scoreCountElement = document.querySelector('#your-score');
