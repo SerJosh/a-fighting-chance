@@ -199,3 +199,11 @@ function game() {
         currentScore = score;
         updateScoreBoard();
     }
+
+    function updateScoreBoard() {
+        scoreCountElement.innerText = currentScore;
+        window.localStorage.setItem('gameScore', currentScore);
+    }
+}
+
+game();
