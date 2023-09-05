@@ -130,3 +130,13 @@ function game() {
                 startGame();
             });
         });
+    });
+
+    function startGame() {
+        calculateWinner(userChoice, compChoice);
+        userChoiceElement.classList.add('hidden');
+        pickedElement.classList.remove('hidden');
+        clearResultBeforeAppend();
+        buildChoiceElement(true, userChoice);
+        buildChoiceElement(false, compChoice);
+    }
