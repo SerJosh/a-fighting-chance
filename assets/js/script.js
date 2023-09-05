@@ -151,3 +151,15 @@ function game() {
     function getComputerChoice() {
         return actions[Math.floor(Math.random() * 5)];
     }
+
+    function calculateWinner(user, comp) {
+        if (user === comp) {
+            resultTitleElement.innerText = 'Draw';
+        } else if (getUserWinsStatus(user + comp)) {
+            resultTitleElement.innerText = 'Beats';
+            calculateScore(1);
+        } else {
+            resultTitleElement.innerText = 'Loses';
+            calculateScore(-1);
+        }
+    }
