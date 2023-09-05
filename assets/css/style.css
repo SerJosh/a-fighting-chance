@@ -39,6 +39,36 @@ p {
 
 /** Content in Phone **/
 
+/** Phone Slides Styling  **/
+
+.phone-screen-change {
+    width: 95vw;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.section-slides {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.section-slides>div {
+    position: relative;
+    flex-shrink: 0;
+    width: 95vw;
+    max-width: 500px;
+    height: 100vh;
+    max-height: 600px;
+    border-radius: 10px;
+}
+
+.section-slides::-webkit-scrollbar {
+    height: 0;
+}
+
 /** Phone Div **/
 
 #phone {
