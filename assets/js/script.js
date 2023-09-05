@@ -163,3 +163,18 @@ function game() {
             calculateScore(-1);
         }
     }
+
+    function getUserWinsStatus(result) {
+        return userWinResults.some(winStr => winStr === result);
+    }
+
+    function buildChoiceElement(isItUserElement, className) {
+        const el = document.createElement('div');
+        // el.classList = [` ${className}`];
+        el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame">${className}</p></div>`;
+        if (isItUserElement) {
+            userPickElement.append(el);
+        } else {
+            pcPickElement.append(el);
+        }
+    }
