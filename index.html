@@ -26,103 +26,118 @@
   <body>
     <!-- phone div-->
     <div id="phone">
-      <!-- phone-screen div-->
-      <div id="phone-screen">
-        <!-- Heading-->
-        <header><h1 id="logo">A Fighting Chance</h1></header>
-        <!-- Landing page knight images-->
-        <div id="all-knights">
-          <div class="knight">
-            <img class="knight-img" src="/assets/images/king-arthur2.jpg" alt="" />
+      <div class="phone-screen-change">
+        <div class="section-slides">
+          <!-- phone-screen div-->
+          <div id="phone-screen">
+            <!-- Heading-->
+            <header><h1 id="logo">A Fighting Chance</h1></header>
+            <!-- Landing page knight images-->
+            <div id="all-knights">
+              <div class="knight">
+                <img
+                  class="knight-img"
+                  src="/assets/images/king-arthur2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="knight">
+                <img
+                  class="knight-img"
+                  src="/assets/images/sir-lancelot2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="knight">
+                <img
+                  class="knight-img"
+                  src="/assets/images/sir-robin3.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="knight">
+                <img
+                  class="knight-img"
+                  src="/assets/images/sir-galahad.png"
+                  alt=""
+                />
+              </div>
+              <div class="knight">
+                <img
+                  class="knight-img"
+                  src="/assets/images/sir-bedevere.webp"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!--Landing page buttons -->
+            <div>
+              <label for="name"></label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                class="text-input"
+                placeholder="Your name"
+                required
+              />
+              <br />
+              <button class="button-spacing" id="start-game-btn" type="submit">
+                Play
+              </button>
+              <br />
+              <button class="button-spacing">How to Play</button>
+              <br />
+              <button class="button-spacing">About the Game</button>
+            </div>
+            <!-- Footer-->
+            <footer>
+              <ul>
+                <li>
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Visit our Facebook page (opens on a new tab)"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Visit our Instagram page (opens on a new tab)"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Visit our Youtube page (opens on a new tab)"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.tiktok.com/"
+                    target="_blank"
+                    rel="noopener"
+                    aria-label="Visit our Tik Tok page (opens on a new tab)"
+                    ><i class="fab fa-tiktok"></i
+                  ></a>
+                </li>
+              </ul>
+            </footer>
           </div>
-          <div class="knight">
-            <img class="knight-img" src="/assets/images/sir-lancelot2.jpg" alt="" />
-          </div>
-          <div class="knight">
-            <img class="knight-img" src="/assets/images/sir-robin3.jpeg" alt="" />
-          </div>
-          <div class="knight">
-            <img class="knight-img" src="/assets/images/sir-galahad.png" alt="" />
-          </div>
-          <div class="knight">
-            <img class="knight-img" src="/assets/images/sir-bedevere.webp" alt="" />
-          </div>
+          <!-- Screens outside of Landing page-->
+          <div id="game-page"></div>
+          <div id="landing-page"></div>
+          <div id="landing-page3"></div>
         </div>
-        <!--Landing page buttons -->
-        <div>
-          <label for="name"></label>
-          <input
-            id="name"
-            name="name"
-            type="text"
-            class="text-input"
-            placeholder="Your name"
-            required
-          />
-          <br />
-          <button
-            class="button-spacing"
-            id="start-game-btn"
-            type="submit"
-            onclick="play();"
-          >
-            Play
-          </button>
-          <br />
-          <button class="button-spacing" onclick="howtoplay();">
-            How to Play
-          </button>
-          <br />
-          <button class="button-spacing" onclick="aboutthegame();">
-            About the Game
-          </button>
-        </div>
-        <!-- Footer-->
-        <footer>
-          <ul>
-            <li>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Facebook page (opens on a new tab)"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Instagram page (opens on a new tab)"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.youtube.com/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Youtube page (opens on a new tab)"
-                ><i class="fab fa-youtube"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.tiktok.com/"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Tik Tok page (opens on a new tab)"
-                ><i class="fab fa-tiktok"></i
-              ></a>
-            </li>
-          </ul>
-        </footer>
       </div>
-<!-- Screens outside of Landing page-->
-      <div id="empty-box"></div>
-      <div id="landing-page"></div>
-      <div id="landing-page3"></div>
     </div>
     <script src="assets/js/script.js"></script>
   </body>
