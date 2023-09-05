@@ -32,6 +32,11 @@ button {
     font-size: 300%;
 }
 
+h3 {
+    font-family: "Pirata One", sans-serif;
+    letter-spacing: 2px;
+}
+
 p {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-size: 40%;
@@ -182,4 +187,50 @@ footer ul {
 footer a:hover {
     background-color: black;
     color: green;
+}
+
+/** Game Page **/
+
+/** Game Buttons **/
+
+#game-btns {
+    height: 30px;
+}
+
+.gme-btn-style {
+    margin: 2px;
+    font-size: 100%;
+    padding: 4px 25px 4px 25px;
+    text-align: center;
+    background-color: darkgreen;
+    color: #fafafa;
+    background: linear-gradient(45deg);
+    clip-path: polygon(15px 0,
+            calc(100% - 15px) 0,
+            100% 15px,
+            100% calc(100% - 15px),
+            calc(100% - 15px) 100%,
+            15px 100%,
+            0 calc(100% - 15px),
+            0 15px);
+}
+
+/** Player Names **/
+
+#players {
+    height: 40px;
+}
+
+#player {
+    float: left;
+    Margin-top: 10px;
+    margin-left: 70px;
+    font-size: 160%;
+}
+
+#opponent {
+    float: right;
+    Margin-top: 10px;
+    margin-right: 60px;
+    font-size: 160%;
 }
