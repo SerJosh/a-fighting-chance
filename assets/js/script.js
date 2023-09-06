@@ -157,10 +157,12 @@ function game() {
             resultTitleElement.innerText = 'Draw';
         } else if (getUserWinsStatus(user + comp)) {
             resultTitleElement.innerText = 'Beats';
-            calculateScore(1);
+            // calculateScore(1);
+            increaseUserScore();
         } else {
             resultTitleElement.innerText = 'Loses';
-            calculateScore(-1);
+            // calculateScore(-1);
+            increaseComputerScore();
         }
     }
 
@@ -170,7 +172,6 @@ function game() {
 
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
-        // el.classList = [` ${className}`];
         el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame">${className}</p></div>`;
         if (isItUserElement) {
             userPickElement.append(el);
@@ -179,10 +180,10 @@ function game() {
         }
     }
 
-    function tryAgain() {
-        userChoiceElement.classList.remove('hidden');
-        pickedElement.classList.add('hidden');
-    }
+    // function tryAgain() {
+    //     userChoiceElement.classList.remove('hidden');
+    //     pickedElement.classList.add('hidden');
+    // }
 
     function clearResultBeforeAppend() {
         userPickElement.innerHTML = '';
@@ -191,7 +192,9 @@ function game() {
 
     function calculateScore(roundResult) {
         currentScore += roundResult;
-        updateScoreBoard();
+        // updateScoreBoard();
+        increaseUserScore();
+        increaseComputerScore();
     }
 
     function retrieveScoreFromLocalStorage() {
@@ -203,6 +206,19 @@ function game() {
     function updateScoreBoard() {
         scoreCountElement.innerText = currentScore;
         window.localStorage.setItem('gameScore', currentScore);
+    }
+
+
+    /** Score testing */
+    function increaseUserScore() {
+        let oldScore = parseInt(document.getElementById("your-score").textContent);
+        document.getElementById("your-score").textContent = ++oldScore;
+    }
+
+
+    function increaseComputerScore() {
+        let oldScore = parseInt(document.getElementById("opp-score").textContent);
+        document.getElementById("opp-score").textContent = ++oldScore;
     }
 }
 
