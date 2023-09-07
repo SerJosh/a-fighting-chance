@@ -220,6 +220,37 @@ function game() {
         let oldScore = parseInt(document.getElementById("opp-score").textContent);
         document.getElementById("opp-score").textContent = ++oldScore;
     }
+
+    
+
+
 }
 
+
+
 game();
+
+/** Attempted gif crap */
+
+// function countRounds() {
+//     let userScore = parseInt(document.getElementById("your-score").textContent);
+//     let computerScore = parseInt(document.getElementById("opp-score").textContent);
+
+//     if (userScore >= 3 || computerScore >= 3) {
+//         document.getElementById("result-div").style.display = "block";
+//         displayResult(userScore, computerScore);
+//     }
+// }
+
+
+// function displayResult(userScore, computerScore) {
+//     let resultDiv = document.getElementById("result-div");
+
+//     if (userScore > computerScore) {
+//         resultDiv.textContent = `You win ${userScore}-${computerScore}`;
+
+//     } else if (userScore < computerScore) {
+//         resultDiv.textContent = `You lose ${userScore}-${computerScore}`;
+
+//     }
+// }
