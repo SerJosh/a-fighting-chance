@@ -115,12 +115,12 @@ function game() {
     const pcPickElement = document.querySelector('#game-right');
     const resultElement = document.querySelector('#vs');
     const resultTitleElement = resultElement.querySelector('#result');
-    const scoreCountElement = document.querySelector('#your-score');
+    // const scoreCountElement = document.querySelector('#your-score');
 
     let currentScore = null;
 
     window.addEventListener('load', () => {
-        retrieveScoreFromLocalStorage();
+        // retrieveScoreFromLocalStorage();
 
         document.querySelectorAll('#all-knights-game .knight-game').forEach(knight => {
             knight.addEventListener('click', (ev) => {
@@ -190,23 +190,23 @@ function game() {
         pcPickElement.innerHTML = '';
     }
 
-    function calculateScore(roundResult) {
-        currentScore += roundResult;
-        // updateScoreBoard();
-        increaseUserScore();
-        increaseComputerScore();
-    }
+    // function calculateScore(roundResult) {
+    //     currentScore += roundResult;
+    //     // updateScoreBoard();
+    //     increaseUserScore();
+    //     increaseComputerScore();
+    // }
 
-    function retrieveScoreFromLocalStorage() {
-        const score = +window.localStorage.getItem('gameScore') || 0;
-        currentScore = score;
-        updateScoreBoard();
-    }
+    // function retrieveScoreFromLocalStorage() {
+    //     const score = +window.localStorage.getItem('gameScore') || 0;
+    //     currentScore = score;
+    //     updateScoreBoard();
+    // }
 
-    function updateScoreBoard() {
-        scoreCountElement.innerText = currentScore;
-        window.localStorage.setItem('gameScore', currentScore);
-    }
+    // function updateScoreBoard() {
+    //     scoreCountElement.innerText = currentScore;
+    //     window.localStorage.setItem('gameScore', currentScore);
+    // }
 
 
     /** Score testing */
