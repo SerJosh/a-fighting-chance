@@ -105,8 +105,8 @@ document.getElementById("start-game-btn").addEventListener("click", function () 
 
 function game() {
     const actions = ['arthur', 'lancelot', 'robin', 'galahad', 'bedevere'];
-    const userWinResults = ['robinlancelot', 'lancelotarthur', 'arthurrobin', 'robinbedevere', 'bedevererobin',
-        'arthurrobin', 'robingalahad', 'galahadlancelot', 'lancelotbedevere', 'bedeverearthur'];
+    const userWinResults = ['robinlancelot', 'lancelotarthur', 'arthurgalahad', 'galahadbedevere', 'bedevererobin',
+        'robingalahad', 'galahadlancelot', 'lancelotbedevere', 'arthurrobin', 'bedeverearthur'];
     let userChoice = '';
     let compChoice = '';
     const userChoiceElement = document.querySelector('#all-knights-game');
@@ -221,7 +221,7 @@ function game() {
         document.getElementById("opp-score").textContent = ++oldScore;
     }
 
-    
+
 
 
 }
