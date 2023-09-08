@@ -98,16 +98,25 @@
 //     empyBox.innerHTML = ` <h2>Game Area<h2>`;
 // }
 
+
+/** Play Button to go to Game page */
 document.getElementById("start-game-btn").addEventListener("click", function () {
     window.location.href = "#game-page";
 });
 
+/** About Game Button to go to AboutGame page */
 document.getElementById("about-game").addEventListener("click", function () {
     window.location.href = "#about-page";
 });
 
+/** Back Button to go back to Landing page */
 document.getElementById("back-btn").addEventListener("click", function () {
     window.location.href = "#landing-page";
+});
+
+/** How to Play Button to go to How to Play page */
+document.getElementById("hw-to-ply").addEventListener("click", function () {
+    window.location.href = "#hw-to-ply-page";
 });
 
 
