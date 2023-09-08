@@ -354,3 +354,18 @@ footer a:hover {
 #text-center-ingame {
     margin-left: 140%;
 }
+
+/** Abouut Game Page **/
+
+#about-page {
+    margin: 15px;
+}
+
+#about-head {
+    height: 90px;
+}
+
+#about-content {
+    height: 450px;
+    font-size: 350%;
+}
