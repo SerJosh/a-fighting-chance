@@ -117,7 +117,7 @@ function game() {
     const resultTitleElement = resultElement.querySelector('#result');
     // const scoreCountElement = document.querySelector('#your-score');
 
-    let currentScore = null;
+    // let currentScore = null;
 
     window.addEventListener('load', () => {
         // retrieveScoreFromLocalStorage();

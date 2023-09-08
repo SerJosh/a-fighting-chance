@@ -58,10 +58,12 @@ p {
     display: flex;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
+    overflow-x: auto;
 }
 
 .section-slides>div {
     position: relative;
+    scroll-snap-align: start;
     flex-shrink: 0;
     width: 95vw;
     max-width: 500px;
@@ -350,5 +352,3 @@ footer a:hover {
 #text-center-ingame {
     margin-left: 140%;
 }
-
-
