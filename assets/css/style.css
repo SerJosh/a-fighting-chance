@@ -105,6 +105,8 @@ p {
 #all-knights {
     height: 150px;
     display: flex;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .knight {

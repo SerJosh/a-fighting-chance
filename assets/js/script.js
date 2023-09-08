@@ -102,6 +102,10 @@ document.getElementById("start-game-btn").addEventListener("click", function () 
     window.location.href = "#game-page";
 });
 
+document.getElementById("about-game").addEventListener("click", function () {
+    window.location.href = "#about-page";
+});
+
 
 function game() {
     const actions = ['arthur', 'lancelot', 'robin', 'galahad', 'bedevere'];
