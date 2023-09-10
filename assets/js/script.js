@@ -189,7 +189,7 @@ function game() {
 
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
-        el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame">${className}</p></div>`;
+        el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame"><strong>${className}</strong></p></div>`;
         if (isItUserElement) {
             userPickElement.append(el);
         } else {
