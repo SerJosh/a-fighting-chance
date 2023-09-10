@@ -119,6 +119,11 @@ document.getElementById("hw-to-ply").addEventListener("click", function () {
     window.location.href = "#hw-to-ply-page";
 });
 
+/* Exit Game Button **/
+document.getElementById("exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+});
+
 
 function game() {
     const actions = ['arthur', 'lancelot', 'robin', 'galahad', 'bedevere'];
