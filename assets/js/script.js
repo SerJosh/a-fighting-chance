@@ -87,16 +87,178 @@
 //     </div>`;
 // }
 
-/** Play onclick function */
+/** How to Play list onclick function */
 
-// function play() {
-//     var gfg_down =
-//         document.getElementById("phone-screen");
-//     gfg_down.remove();
+function list() {
+    // var gfg_down =
+    //     document.getElementById("hw-to-ply-page");
+    // gfg_down.remove();
 
-//     let empyBox = document.getElementById('game-page');
-//     empyBox.innerHTML = ` <h2>Game Area<h2>`;
-// }
+    let howToPlay = document.getElementById('hw-to-ply-page');
+    howToPlay.innerHTML = ` <h2>Rules</h2><div><button class="gme-btn-style">Back</button
+              ></div> <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Robin</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Lancelot</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Lancelot</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Arthur</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Arthur</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Galahad</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Galahad</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Bedevere</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Bedevere</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Robin</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Robin</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Galahad</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Galahad</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Lancelot</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Lancelot</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Bedevere</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Arthur</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Robin</p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="rule-line">
+                <div class="rulediv">
+                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
+                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
+                    <div class="center-rule">
+                        <div class="left-rule">
+                            <p>Bedevere</p>
+                        </div>
+                        <div class="beats-rule">
+                            <p>beats</p>
+                        </div>
+                        <div class="right-rule">
+                            <p>Arthur</p>
+                        </div>
+                    </div>
+                </div>
+                <div> <button class="button-spacing" id="rule-bk">
+                    Back
+                </button></div>`;
+}
 
 
 /** Play Button to go to Game page */

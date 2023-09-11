@@ -342,6 +342,15 @@ footer a:hover {
     letter-spacing: 2px;
 }
 
+hr {
+    height: 2px;
+    background-color: white;
+
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+}
+
 /** Game Zone Knight Choice Area **/
 
 #knight-choice {
@@ -403,8 +412,10 @@ footer a:hover {
     margin: 10px;
 }
 
+/** Rules **/
+
 .rulediv {
-    height: 80px;
+    height: 65px;
 }
 
 .left-rule-img {
@@ -446,7 +457,7 @@ footer a:hover {
 
 .knight-img-rule {
     width: 60%;
-    height: 30%;
+    height: 50px;
     padding: 1px;
     border-radius: 50%;
     border-style: solid;
@@ -455,11 +466,13 @@ footer a:hover {
     margin-bottom: 7px;
 }
 
-hr {
-    height: 2px;
+.rule-line {
+    height: 1px;
     background-color: white;
-
-    width: 80%;
+    width: 60%;
     margin: auto;
-    margin-top: 5px;
+}
+
+#rule-bk {
+    margin-bottom: 50px;
 }
