@@ -397,12 +397,24 @@ hr {
 }
 
 #about-head {
-    height: 90px;
+    height: 60px;
 }
 
-#about-content {
-    height: 450px;
-    font-size: 350%;
+.about-content {
+    height: 120px;
+    font-size: 300%;
+    margin-left: 12px;
+    margin-right: 17px;
+}
+
+#blk-knight-about {
+    width: 70%;
+    height: 150px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 5%;
 }
 
 /** How to Play Page **/
