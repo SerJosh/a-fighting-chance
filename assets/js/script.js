@@ -347,6 +347,7 @@ function game() {
     const resultTitleElement = resultElement.querySelector('#result');
     // const scoreCountElement = document.querySelector('#your-score');
 
+
     // let currentScore = null;
 
     window.addEventListener('load', () => {
@@ -443,18 +444,48 @@ function game() {
     function increaseUserScore() {
         let oldScore = parseInt(document.getElementById("your-score").textContent);
         document.getElementById("your-score").textContent = ++oldScore;
+        countRounds();
+
     }
 
 
     function increaseComputerScore() {
         let oldScore = parseInt(document.getElementById("opp-score").textContent);
         document.getElementById("opp-score").textContent = ++oldScore;
+        countRounds();
+
+
+    }
+
+    function countRounds() {
+        let userScore = parseInt(document.getElementById("your-score").textContent);
+        let computerScore = parseInt(document.getElementById("opp-score").textContent);
+
+        if (userScore >= 3) {
+            let howToPlay = document.getElementById('game-page');
+            howToPlay.innerHTML = ` <h2>win</h2> <img src="/assets/images/black-knight-gif-win.gif" alt="">`;
+        } else if (computerScore >= 3) {
+            let howToPlay = document.getElementById('game-page');
+            howToPlay.innerHTML = ` <h2>loose</h2> <img src="/assets/images/black-knight-lose-gif.gif" alt="">`;
+        }
     }
 
 
+    // function displayResult(userScore, computerScore) {
+    //     let resultDiv = document.getElementById("gif");
 
+    //     if (userScore > computerScore) {
+    //         resultDiv.textContent = `You win ${userScore} -${computerScore} `;
+
+    //     } else if (userScore < computerScore) {
+    //         resultDiv.textContent = `You lose ${userScore} -${computerScore} `;
+
+    //     }
 
 }
+
+
+
 
 
 
@@ -467,20 +498,20 @@ game();
 //     let computerScore = parseInt(document.getElementById("opp-score").textContent);
 
 //     if (userScore >= 3 || computerScore >= 3) {
-//         document.getElementById("result-div").style.display = "block";
+//         document.getElementById("gif").style.display = "block";
 //         displayResult(userScore, computerScore);
 //     }
 // }
 
 
 // function displayResult(userScore, computerScore) {
-//     let resultDiv = document.getElementById("result-div");
+//     let resultDiv = document.getElementById("gif");
 
 //     if (userScore > computerScore) {
-//         resultDiv.textContent = `You win ${ userScore; } -${ computerScore; } `;
+//         resultDiv.textContent = `You win ${userScore} -${computerScore} `;
 
 //     } else if (userScore < computerScore) {
-//         resultDiv.textContent = `You lose ${ userScore; } -${ computerScore; } `;
+//         resultDiv.textContent = `You lose ${userScore} -${computerScore} `;
 
 //     }
 // };
