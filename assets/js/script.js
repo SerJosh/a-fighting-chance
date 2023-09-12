@@ -91,7 +91,7 @@
 
 function rules() {
     let howToPlay = document.getElementById('hw-to-ply-page');
-    howToPlay.innerHTML = ` <h2>Rules</h2><div><button class="gme-btn-style">Back</button
+    howToPlay.innerHTML = ` <h2>Rules</h2><div><button class="gme-btn-style" onclick="backRules();">Back</button
               ></div> <div class="rulediv">
                     <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
                     <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
@@ -264,11 +264,11 @@ function backRules() {
             <div id="how2plytext">
                 <p>Each Knight wins against 2 of the other Knights. Robin beats Lancelot, Lancelot beats Arthur, Arthur beats
                 Galahad, Galahad beats Bedevere, Bedevere beats Robin, Robin beats Galahad, Galahad beats Lancelot, Lancelot
-                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin. Each the player and opponent picks a Knight and it is
+                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin.<br> Each the player and opponent picks a Knight and it is
                 revealed at the same
                 time. The winner is the one who beats the other. In a tie (the same Knights chosen), the process is repeated until a
                 winner is found.
-                The best player out of 5 rounds is the winner. To see in more detail the rules of the game, click on the Rules button.
+                The best player out of 5 rounds is the overall winner. To see in more detail the rules of the game, click on the Rules button.
                 </p>
                 </div>
                 <br>

@@ -137,15 +137,19 @@
           <!-- Screens outside of Landing page-->
           <!--Game Page-->
           <div id="game-page">
+            <!--Game Page Logo-->
             <header><h1 id="logo">A Fighting Chance</h1></header>
+            <!--Game Page Buttons-->
             <div id="game-btns">
               <button class="gme-btn-style">Rules</button
               ><button class="gme-btn-style" id="exit-game">Exit</button>
             </div>
+            <!--Game Page Player Names-->
             <div id="players">
               <h3 id="player">Name</h3>
               <h3 id="opponent">Black Knight</h3>
             </div>
+            <!--Game Zone (where the Ingame Content is displayed)-->
             <div class="game-zone">
               <div id="game-left">
                 <img
@@ -169,12 +173,14 @@
               <p id="result"></p>
             </div>
             <hr>
+            <!--Game Page Score Area-->
             <div id="score-area">
               <div id="your-score">0</div>
               <div id="opp-score">0</div>
               <div id="score-center"><p>Score</p></div>
             </div>
             <hr>
+            <!--Game Page Knight Choice Area-->
             <div><h3 id="knight-choice">Choose your Knight</h3></div>
             <div id="all-knights-game">
               <div class="knight-game">
@@ -221,11 +227,11 @@
             <div id="how2plytext">
                 <p>Each Knight wins against 2 of the other Knights. Robin beats Lancelot, Lancelot beats Arthur, Arthur beats
                 Galahad, Galahad beats Bedevere, Bedevere beats Robin, Robin beats Galahad, Galahad beats Lancelot, Lancelot
-                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin. Each the player and opponent picks a Knight and it is
+                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin.<br> Each the player and opponent picks a Knight and it is
                 revealed at the same
                 time. The winner is the one who beats the other. In a tie (the same Knights chosen), the process is repeated until a
                 winner is found.
-                The best player out of 5 rounds is the winner. To see in more detail the rules of the game, click on the Rules button.
+                The best player out of 5 rounds is the overall winner. To see in more detail the rules of the game, click on the Rules button.
                 </p>
                 </div>
                 <br>
@@ -253,158 +259,7 @@
                 </button> <button class="button-spacing" id="bck-landing">
                     Back
                 </button></div>
-                <!--List of Who Beats Who-->
-                <!-- <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Robin</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Lancelot</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Lancelot</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Arthur</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Arthur</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Galahad</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Galahad</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Bedevere</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Bedevere</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Robin</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Robin</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Galahad</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/galahad.png" alt="Galahad"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Galahad</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Lancelot</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/lancelot.png" alt="Lancelot"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Lancelot</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Bedevere</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Arthur</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Robin</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="rulediv">
-                    <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/bedevere.png" alt="Bedevere"></div>
-                    <div class="right-rule-img"><img class="knight-img-rule" src="/assets/images/arthur.png" alt="Arthur"></div>
-                    <div class="center-rule">
-                        <div class="left-rule">
-                            <p>Bedevere</p>
-                        </div>
-                        <div class="beats-rule">
-                            <p>beats</p>
-                        </div>
-                        <div class="right-rule">
-                            <p>Arthur</p>
-                        </div>
-                    </div>
-                </div> -->
-          </div>
+            </div>
           <!--About Game Page-->
           <div id="about-page">
             <div id="about-head"><h2>About the Game<h2></div>
