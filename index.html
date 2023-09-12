@@ -217,20 +217,42 @@
           <!-- How To Play Page-->
           <div id="hw-to-ply-page">
             <h2>How to Play</h2>
-            <div id="game-btns">
-                <button class="gme-btn-style">Exit</button></div>
             <!--How To Play General Rules and Introduction-->
             <div id="how2plytext">
-                <p>Each hand signal wins against 2 of the other signals. Scissors cuts paper, paper covers rock, rock crushes
-                    lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, lizard eats paper, paper
-                    disproves Spock, Spock vaporizes rock, and rock crushes scissors. Whoever throws the winning signal
-                    wins!<br><br>list of rules
-                    <hr>
+                <p>Each Knight wins against 2 of the other Knights. Robin beats Lancelot, Lancelot beats Arthur, Arthur beats
+                Galahad, Galahad beats Bedevere, Bedevere beats Robin, Robin beats Galahad, Galahad beats Lancelot, Lancelot
+                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin. Each the player and opponent picks a Knight and it is
+                revealed at the same
+                time. The winner is the one who beats the other. In a tie (the same Knights chosen), the process is repeated until a
+                winner is found.
+                The best player out of 5 rounds is the winner. To see in more detail the rules of the game, click on the Rules button.
                 </p>
                 </div>
-                <button class="button-spacing"  onclick="list();">
-                    list
-                </button>
+                <br>
+                <div><div id="how2plyhead">
+                    <h3>Knights</h3>
+                </div><div id="all-knights">
+                    <div class="how-knight"><p class="how2plyknght">Arthur</p>
+                        <img class="how-knight-img" src="/assets/images/arthur.png" alt="arthur" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Lancelot</p>
+                        <img class="how-knight-img" src="/assets/images/lancelot.png" alt="lancelot" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Robin</p>
+                        <img class="how-knight-img" src="/assets/images/robin.png" alt="robin" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Galahad</p>
+                        <img class="how-knight-img" src="/assets/images/galahad.png" alt="galahad" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Bedevere</p>
+                        <img class="how-knight-img" src="/assets/images/bedevere.png" alt="bedevere" />
+                    </div>
+                </div></div>
+                <div><button class="button-spacing"  onclick="rules();">
+                    Rules
+                </button> <button class="button-spacing" id="bck-landing">
+                    Back
+                </button></div>
                 <!--List of Who Beats Who-->
                 <!-- <div class="rulediv">
                     <div class="left-rule-img"><img class="knight-img-rule" src="/assets/images/robin.png" alt="Robin"></div>

@@ -87,13 +87,9 @@
 //     </div>`;
 // }
 
-/** How to Play list onclick function */
+/** How to Play Rule List onclick function */
 
-function list() {
-    // var gfg_down =
-    //     document.getElementById("hw-to-ply-page");
-    // gfg_down.remove();
-
+function rules() {
     let howToPlay = document.getElementById('hw-to-ply-page');
     howToPlay.innerHTML = ` <h2>Rules</h2><div><button class="gme-btn-style">Back</button
               ></div> <div class="rulediv">
@@ -255,11 +251,61 @@ function list() {
                         </div>
                     </div>
                 </div>
-                <div> <button class="button-spacing" id="rule-bk">
+                <div> <button class="button-spacing" id="rule-bk" onclick="backRules();">
                     Back
                 </button></div>`;
 }
 
+
+function backRules() {
+    let howToPlay = document.getElementById('hw-to-ply-page');
+    howToPlay.innerHTML = ` <h2>How to Play</h2>
+            <!--How To Play General Rules and Introduction-->
+            <div id="how2plytext">
+                <p>Each Knight wins against 2 of the other Knights. Robin beats Lancelot, Lancelot beats Arthur, Arthur beats
+                Galahad, Galahad beats Bedevere, Bedevere beats Robin, Robin beats Galahad, Galahad beats Lancelot, Lancelot
+                beats Bedevere, Bedevere beats Arthur, and Arthur beats Robin. Each the player and opponent picks a Knight and it is
+                revealed at the same
+                time. The winner is the one who beats the other. In a tie (the same Knights chosen), the process is repeated until a
+                winner is found.
+                The best player out of 5 rounds is the winner. To see in more detail the rules of the game, click on the Rules button.
+                </p>
+                </div>
+                <br>
+                <div><div id="how2plyhead">
+                    <h3>Knights</h3>
+                </div><div id="all-knights">
+                    <div class="how-knight"><p class="how2plyknght">Arthur</p>
+                        <img class="how-knight-img" src="/assets/images/arthur.png" alt="arthur" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Lancelot</p>
+                        <img class="how-knight-img" src="/assets/images/lancelot.png" alt="lancelot" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Robin</p>
+                        <img class="how-knight-img" src="/assets/images/robin.png" alt="robin" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Galahad</p>
+                        <img class="how-knight-img" src="/assets/images/galahad.png" alt="galahad" />
+                    </div>
+                    <div class="how-knight"><p class="how2plyknght">Bedevere</p>
+                        <img class="how-knight-img" src="/assets/images/bedevere.png" alt="bedevere" />
+                    </div>
+                </div></div>
+                <div><button class="button-spacing"  onclick="rules();">
+                    Rules
+                </button> <button class="button-spacing" id="bck-landing" onclick="backToRules();">
+                    Back
+                </button></div>`;
+}
+
+function backToRules() {
+    window.location.href = "#landing-page";
+}
+
+/** Back Button in How to Play page */
+// document.getElementById("bck-landing").addEventListener("click", function () {
+//     window.location.href = "#landing-page";
+// });
 
 /** Play Button to go to Game page */
 document.getElementById("start-game-btn").addEventListener("click", function () {
@@ -431,10 +477,10 @@ game();
 //     let resultDiv = document.getElementById("result-div");
 
 //     if (userScore > computerScore) {
-//         resultDiv.textContent = `You win ${userScore}-${computerScore}`;
+//         resultDiv.textContent = `You win ${ userScore; } -${ computerScore; } `;
 
 //     } else if (userScore < computerScore) {
-//         resultDiv.textContent = `You lose ${userScore}-${computerScore}`;
+//         resultDiv.textContent = `You lose ${ userScore; } -${ computerScore; } `;
 
 //     }
-// }
+// };
