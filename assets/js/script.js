@@ -298,6 +298,94 @@ function backRules() {
                 </button></div>`;
 }
 
+function exitGame2() {
+    window.location.href = "#landing-page";
+}
+function exitGame3() {
+    let howToPlay = document.getElementById('game-page');
+    howToPlay.innerHTML = ` <header><h1 id="logo">A Fighting Chance</h1></header>
+            <!--Game Page Buttons-->
+            <div id="game-btns">
+              <button class="gme-btn-style">Rules</button
+              ><button class="gme-btn-style" id="exit-game">Exit</button>
+            </div>
+            <!--Game Page Player Names-->
+            <div id="players">
+              <h3 id="player">Name</h3>
+              <h3 id="opponent">Black Knight</h3>
+            </div>
+            <!--Game Zone (where the Ingame Content is displayed)-->
+            <div class="game-zone">
+              <div id="game-left">
+                <img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>
+              </div>
+              <div id="game-right">
+                <img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>
+              </div>
+            </div>
+            <div id="vs">
+              <p>VS</p>
+              <p id="result"></p>
+            </div>
+            <hr>
+            <!--Game Page Score Area-->
+            <div id="score-area">
+              <div id="your-score">0</div>
+              <div id="opp-score">0</div>
+              <div id="score-center"><p>Score</p></div>
+            </div>
+            <hr>
+            <!--Game Page Knight Choice Area-->
+            <div><h3 id="knight-choice">Choose your Knight</h3></div>
+            <div id="all-knights-game">
+              <div class="knight-game">
+                <img
+                  class="knight-gme-img arthur"
+                  src="/assets/images/arthur.png"
+                  alt="arthur"
+                />
+              </div>
+              <div class="knight-game">
+                <img
+                  class="knight-gme-img lancelot"
+                  src="/assets/images/lancelot.png"
+                  alt="lancelot"
+                />
+              </div>
+              <div class="knight-game">
+                <img
+                  class="knight-gme-img robin"
+                  src="/assets/images/robin.png"
+                  alt="robin"
+                />
+              </div>
+              <div class="knight-game">
+                <img
+                  class="knight-gme-img galahad"
+                  src="/assets/images/galahad.png"
+                  alt="galahad"
+                />
+              </div>
+              <div class="knight-game">
+                <img
+                  class="knight-gme-img bedevere"
+                  src="/assets/images/bedevere.png"
+                  alt="bedevere"
+                />
+              </div>
+            </div>`;
+}
+
 function backToRules() {
     window.location.href = "#landing-page";
 }
@@ -462,11 +550,17 @@ function game() {
         let computerScore = parseInt(document.getElementById("opp-score").textContent);
 
         if (userScore >= 3) {
-            let howToPlay = document.getElementById('game-page');
-            howToPlay.innerHTML = ` <h2>win</h2> <img src="/assets/images/black-knight-gif-win.gif" alt="">`;
+            let result = document.getElementById('game-page');
+            result.innerHTML = ` <h2>win</h2> <img src="/assets/images/black-knight-gif-win.gif" alt=""> <div>${userScore} -${computerScore}</div><div id="game-btns">
+              <button class="gme-btn-style" onclick="exitGame3();" >Play Again</button
+              ><button class="gme-btn-style" onclick="exitGame2();">Exit</button>
+            </div>`;
         } else if (computerScore >= 3) {
-            let howToPlay = document.getElementById('game-page');
-            howToPlay.innerHTML = ` <h2>loose</h2> <img src="/assets/images/black-knight-lose-gif.gif" alt="">`;
+            let result = document.getElementById('game-page');
+            result.innerHTML = ` <h2>loose</h2> <img src="/assets/images/black-knight-lose-gif.gif" alt=""> <div>${userScore} -${computerScore}</div><div id="game-btns">
+              <button class="gme-btn-style" onclick="exitGame3();" >Play Again</button
+              ><button class="gme-btn-style" onclick="exitGame2();">Exit</button>
+            </div>`;
         }
     }
 
