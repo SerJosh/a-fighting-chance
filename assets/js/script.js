@@ -1,94 +1,4 @@
-/** How to Play onclick function */
-
-// function howtoplay() {
-//     var gfg_down =
-//         document.getElementById("phone-screen");
-//     gfg_down.remove();
-
-//     let emptyBox = document.getElementById('empty-box');
-//     emptyBox.innerHTML = `<h2>How to Play</h2>
-
-
-//   <br>
-//   <button class="button-spacing" onclick="myRestore();">Back</button>`;
-
-
-/** About the Game onclick function */
-
-// function aboutthegame() {
-//     var gfg_down =
-//         document.getElementById("phone-screen");
-//     gfg_down.remove();
-
-//     let emptyBox = document.getElementById('empty-box');
-//     emptyBox.innerHTML = `<h2>About the Game<h2>
-
-//   <p id = "abt-the-gme">After a narrow defeat in a historic battle against the legendary King Arthur, the Black Knight seeks revenge! But on his own terms,in a moble game of A Fighting Chance. He wants vengance, he chose the terms and he has chosen you as his worthy adversary... do you stand A Fighting Chance? <br><br> A Fighting Chance is an extension of the simple game of rock, paper, scissors which includes two extra options where now an option has two things it can beat and two things it can loose to (rock,paper,scissors, lizard, spock). But with a new theme of King Arthur and his fellow Knights. <p>
-//   <br>
-//   <button class="button-spacing" onclick="myRestore();">Back</button>`;
-// }
-
-/** Back button onclick function */
-
-// function myRestore() {
-//     var gfg_down =
-//         document.getElementById("empty-box");
-//     gfg_down.remove();
-
-//     let empyBox = document.getElementById('landing-page');
-//     empyBox.innerHTML = ` <div id="phone-screen">
-//         <header><h1 id="logo">A Fighting Chance</h1></header>
-//         <div id="all-knights">
-//           <div class="knight">
-//             <img id="arthur" src="/assets/images/king-arthur2.jpg" alt="" />
-//           </div>
-//           <div class="knight">
-//             <img id="lancelot" src="/assets/images/sir-lancelot2.jpg" alt="" />
-//           </div>
-//           <div class="knight">
-//             <img id="robin" src="/assets/images/sir-robin3.jpeg" alt="" />
-//           </div>
-//           <div class="knight">
-//             <img id="galahad" src="/assets/images/sir-galahad.png" alt="" />
-//           </div>
-//           <div class="knight">
-//             <img id="bedevere" src="/assets/images/sir-bedevere.webp" alt="" />
-//           </div>
-//         </div>
-//         <div><label for="name"></label>
-//         <input id="name" name="name" type="text" class="text-input" placeholder="Your name" required>
-//         <br>
-//         <button class="button-spacing" id="start-game-btn" type="submit" onclick="play();">Play</button>
-//         <br>
-//         <button class="button-spacing" onclick="howtoplay();">How to Play</button>
-//         <br>
-//         <button class="button-spacing" onclick="aboutthegame();">About the Game</button></div>
-//         <footer><footer>
-//             <ul>
-//                 <li>
-//                     <a href="https://facebook.com" target="_blank" rel="noopener"
-//                         aria-label="Visit our Facebook page (opens on a new tab)"><i class="fab fa-facebook-f"></i></a>
-//                 </li>
-//                 <li>
-//                     <a href="https://instagram.com" target="_blank" rel="noopener"
-//                         aria-label="Visit our Instagram page (opens on a new tab)"><i class="fab fa-instagram"></i></a>
-//                 </li><li>
-//                     <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-//                         aria-label="Visit our Youtube page (opens on a new tab)"><i class="fab fa-youtube"></i></a>
-//                 </li><li>
-//                     <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
-//                         aria-label="Visit our Tik Tok page (opens on a new tab)"><i class="fab fa-tiktok"></i></a>
-//                 </li>
-//                 </ul></footer>
-//       </div>
-//     <div id="empty-box"></div>
-//     <div id="landing-page"></div>
-//     <div id="game-page"></div>
-//     </div>`;
-// }
-
-/** How to Play Rule List onclick function */
-
+/** How to Play -go to-> (innerHTML)RULE LIST onclick function via Rules Button */
 function rules() {
     let howToPlay = document.getElementById('hw-to-ply-page');
     howToPlay.innerHTML = ` <h2>Rules</h2><div><button class="gme-btn-style" onclick="backRules();">Back</button
@@ -256,7 +166,7 @@ function rules() {
                 </button></div>`;
 }
 
-
+/** Rule list(innerHTML) -go to-> HOW TO PLAY(innerHTML) onclick function via (top and bottom) Back Button */
 function backRules() {
     let howToPlay = document.getElementById('hw-to-ply-page');
     howToPlay.innerHTML = ` <h2>How to Play</h2>
@@ -298,23 +208,24 @@ function backRules() {
                 </button></div>`;
 }
 
+/**Win/Lose Gif(innerHTML) -go to-> LANDING PAGE onclick function via Exit Button */
 function exitGame2() {
     window.location.href = "#landing-page";
 }
+
+/**Win/Lose Gif(innerHTML) -go to-> GAME PAGE(innerHTML) onclick function via Play Again Button*/
 function exitGame3() {
     let howToPlay = document.getElementById('game-page');
-    howToPlay.innerHTML = ` <header><h1 id="logo">A Fighting Chance</h1></header>
-            <!--Game Page Buttons-->
+    howToPlay.innerHTML = `<div id="game-page">
+            <header><h1 id="logo">A Fighting Chance</h1></header>
             <div id="game-btns">
               <button class="gme-btn-style">Rules</button
-              ><button class="gme-btn-style" id="exit-game">Exit</button>
+              ><button class="gme-btn-style" onclick="exitGame4();">Exit</button>
             </div>
-            <!--Game Page Player Names-->
             <div id="players">
               <h3 id="player">Name</h3>
               <h3 id="opponent">Black Knight</h3>
             </div>
-            <!--Game Zone (where the Ingame Content is displayed)-->
             <div class="game-zone">
               <div id="game-left">
                 <img
@@ -338,14 +249,12 @@ function exitGame3() {
               <p id="result"></p>
             </div>
             <hr>
-            <!--Game Page Score Area-->
             <div id="score-area">
               <div id="your-score">0</div>
               <div id="opp-score">0</div>
               <div id="score-center"><p>Score</p></div>
             </div>
             <hr>
-            <!--Game Page Knight Choice Area-->
             <div><h3 id="knight-choice">Choose your Knight</h3></div>
             <div id="all-knights-game">
               <div class="knight-game">
@@ -383,43 +292,53 @@ function exitGame3() {
                   alt="bedevere"
                 />
               </div>
-            </div>`;
+            </div>
+          </div>`;
 }
 
+
+/** ??? */
 function backToRules() {
     window.location.href = "#landing-page";
 }
 
-/** Back Button in How to Play page */
-// document.getElementById("bck-landing").addEventListener("click", function () {
-//     window.location.href = "#landing-page";
-// });
+function exitGame4() {
+    window.location.href = "#landing-page";
+}
+/** ??? */
 
-/** Play Button to go to Game page */
+
+/** Landing Page -go to-> GAME PAGE addEventListener function via Play Button  */
 document.getElementById("start-game-btn").addEventListener("click", function () {
     window.location.href = "#game-page";
 });
 
-/** About Game Button to go to AboutGame page */
+/** Landing Page -go to-> ABOUT THE GAME addEventListener function via About the Game Button  */
 document.getElementById("about-game").addEventListener("click", function () {
     window.location.href = "#about-page";
 });
 
-/** Back Button to go back to Landing page */
+/** How to Play(Original/InnerHTML !!!) -go to-> LANDING PAGE addEventListener function via Back Button */
 document.getElementById("back-btn").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
 
-/** How to Play Button to go to How to Play page */
+/** About the Game -go to-> LANDING PAGE addEventListener function via Back Button  */
+document.getElementById("back-btn2").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+});
+
+/** Landing Page -go to-> HOW TO PLAY addEventListener function via How to Play Button */
 document.getElementById("hw-to-ply").addEventListener("click", function () {
     window.location.href = "#hw-to-ply-page";
 });
 
-/* Exit Game Button **/
+/* Game Page(Original/InnerHTML !!!) -go to-> LANDING PAGE addEventListener function via Exit Button  **/
 document.getElementById("exit-game").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
 
+/** THE GAME */
 
 function game() {
     const actions = ['arthur', 'lancelot', 'robin', 'galahad', 'bedevere'];
@@ -433,13 +352,8 @@ function game() {
     const pcPickElement = document.querySelector('#game-right');
     const resultElement = document.querySelector('#vs');
     const resultTitleElement = resultElement.querySelector('#result');
-    // const scoreCountElement = document.querySelector('#your-score');
-
-
-    // let currentScore = null;
 
     window.addEventListener('load', () => {
-        // retrieveScoreFromLocalStorage();
 
         document.querySelectorAll('#all-knights-game .knight-game').forEach(knight => {
             knight.addEventListener('click', (ev) => {
@@ -476,11 +390,9 @@ function game() {
             resultTitleElement.innerText = 'Draw';
         } else if (getUserWinsStatus(user + comp)) {
             resultTitleElement.innerText = 'Beats';
-            // calculateScore(1);
             increaseUserScore();
         } else {
             resultTitleElement.innerText = 'Loses';
-            // calculateScore(-1);
             increaseComputerScore();
         }
     }
@@ -499,36 +411,11 @@ function game() {
         }
     }
 
-    // function tryAgain() {
-    //     userChoiceElement.classList.remove('hidden');
-    //     pickedElement.classList.add('hidden');
-    // }
-
     function clearResultBeforeAppend() {
         userPickElement.innerHTML = '';
         pcPickElement.innerHTML = '';
     }
 
-    // function calculateScore(roundResult) {
-    //     currentScore += roundResult;
-    //     // updateScoreBoard();
-    //     increaseUserScore();
-    //     increaseComputerScore();
-    // }
-
-    // function retrieveScoreFromLocalStorage() {
-    //     const score = +window.localStorage.getItem('gameScore') || 0;
-    //     currentScore = score;
-    //     updateScoreBoard();
-    // }
-
-    // function updateScoreBoard() {
-    //     scoreCountElement.innerText = currentScore;
-    //     window.localStorage.setItem('gameScore', currentScore);
-    // }
-
-
-    /** Score testing */
     function increaseUserScore() {
         let oldScore = parseInt(document.getElementById("your-score").textContent);
         document.getElementById("your-score").textContent = ++oldScore;
@@ -563,49 +450,7 @@ function game() {
             </div>`;
         }
     }
-
-
-    // function displayResult(userScore, computerScore) {
-    //     let resultDiv = document.getElementById("gif");
-
-    //     if (userScore > computerScore) {
-    //         resultDiv.textContent = `You win ${userScore} -${computerScore} `;
-
-    //     } else if (userScore < computerScore) {
-    //         resultDiv.textContent = `You lose ${userScore} -${computerScore} `;
-
-    //     }
-
 }
-
-
-
-
-
 
 game();
 
-/** Attempted gif crap */
-
-// function countRounds() {
-//     let userScore = parseInt(document.getElementById("your-score").textContent);
-//     let computerScore = parseInt(document.getElementById("opp-score").textContent);
-
-//     if (userScore >= 3 || computerScore >= 3) {
-//         document.getElementById("gif").style.display = "block";
-//         displayResult(userScore, computerScore);
-//     }
-// }
-
-
-// function displayResult(userScore, computerScore) {
-//     let resultDiv = document.getElementById("gif");
-
-//     if (userScore > computerScore) {
-//         resultDiv.textContent = `You win ${userScore} -${computerScore} `;
-
-//     } else if (userScore < computerScore) {
-//         resultDiv.textContent = `You lose ${userScore} -${computerScore} `;
-
-//     }
-// };
