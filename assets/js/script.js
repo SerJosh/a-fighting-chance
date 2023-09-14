@@ -342,11 +342,82 @@ document.getElementById("exit-game").addEventListener("click", function () {
 
 document.getElementById("back-btn3").addEventListener("click", function () {
     window.location.href = "#game-page";
+    document.getElementById("result").textContent = ``;
     document.getElementById("your-score").textContent = 0;
     document.getElementById("opp-score").textContent = 0;
-    
-
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
+
+document.getElementById("back-btn4").addEventListener("click", function () {
+    window.location.href = "#game-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+document.getElementById("win-exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+    indow.location.href = "#landing-page";
+});
+
+document.getElementById("loose-exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+
 
 
 /** THE GAME */
@@ -451,11 +522,6 @@ function game() {
             window.location.href = "#gif-win";
         } else if (computerScore >= 3) {
             window.location.href = "#gif-loose";
-            let result = document.getElementById('gif-loose');
-            result.innerHTML = ` <h2>loose</h2> <img src="/assets/images/black-knight-lose-gif.gif" alt=""> <div>${userScore} -${computerScore}</div><div id="game-btns">
-              <button class="gme-btn-style" onclick="exitGame3();" >Play Again</button
-              ><button class="gme-btn-style" onclick="exitGame2();">Exit</button>
-            </div>`;
         }
     }
 }
