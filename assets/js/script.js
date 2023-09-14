@@ -107,7 +107,6 @@ document.getElementById("win-exit-game").addEventListener("click", function () {
                   alt="Black Knight"
                 />
                 <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
-    indow.location.href = "#landing-page";
 });
 
 /**GIF Loose Result -go to-> LANDING PAGE(resets Game page) addEventListener function via Exit Button */
