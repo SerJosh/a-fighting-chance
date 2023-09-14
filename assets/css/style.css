@@ -522,3 +522,51 @@ hr {
 #gif-loose {
     height: 1000px;
 }
+
+/** Rules on Game Page **/
+
+#game-rules {
+    height: 1200px;
+}
+
+.rulediv-gme {
+    height: 5px;
+}
+
+.knight-img-rule-gme {
+    width: 50%;
+    height: 40px;
+    padding: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 4px;
+}
+
+.gme-rule-btn-style {
+    margin: 10px;
+    font-size: 150%;
+    padding: 4px 25px 4px 25px;
+    text-align: center;
+    background-color: darkgreen;
+    color: #fafafa;
+    background: linear-gradient(45deg);
+    clip-path: polygon(15px 0,
+            calc(100% - 15px) 0,
+            100% 15px,
+            100% calc(100% - 15px),
+            calc(100% - 15px) 100%,
+            15px 100%,
+            0 calc(100% - 15px),
+            0 15px);
+}
+
+#rule-btn-div {
+    height: 40px;
+}
+
+.gme-rule-btn-style:hover {
+    background-color: #fafafa;
+    color: black;
+}

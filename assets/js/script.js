@@ -37,6 +37,16 @@ document.getElementById("exit-game").addEventListener("click", function () {
                 <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
+/** Game Page -go to-> RULE LIST(Game Page option) addEventListener function via Rules Button */
+document.getElementById("gme-to-rules").addEventListener("click", function () {
+    window.location.href = "#game-rules";
+});
+
+/** Rule List(Game page option) -go to-> GAME PAGE addEventListener function via Back Button */
+document.getElementById("backtogame").addEventListener("click", function () {
+    window.location.href = "#game-page";
+});
+
 /* GIF result Button Functions*/
 
 /**GIF Win Result -go to-> GAME PAGE(resets page) addEventListener function via Play Again Button */
