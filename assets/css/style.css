@@ -512,3 +512,9 @@ hr {
 #rule-bk {
     margin-bottom: 50px;
 }
+
+/** GIF Results **/
+
+#gif-win {
+    height: 1000px;
+}

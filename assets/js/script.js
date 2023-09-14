@@ -338,6 +338,17 @@ document.getElementById("exit-game").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
 
+/* GIF result to game */
+
+document.getElementById("back-btn3").addEventListener("click", function () {
+    window.location.href = "#game-page";
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    
+
+});
+
+
 /** THE GAME */
 
 function game() {
@@ -437,13 +448,10 @@ function game() {
         let computerScore = parseInt(document.getElementById("opp-score").textContent);
 
         if (userScore >= 3) {
-            let result = document.getElementById('game-page');
-            result.innerHTML = ` <h2>win</h2> <img src="/assets/images/black-knight-gif-win.gif" alt=""> <div>${userScore} -${computerScore}</div><div id="game-btns">
-              <button class="gme-btn-style" onclick="exitGame3();" >Play Again</button
-              ><button class="gme-btn-style" onclick="exitGame2();">Exit</button>
-            </div>`;
+            window.location.href = "#gif-win";
         } else if (computerScore >= 3) {
-            let result = document.getElementById('game-page');
+            window.location.href = "#gif-loose";
+            let result = document.getElementById('gif-loose');
             result.innerHTML = ` <h2>loose</h2> <img src="/assets/images/black-knight-lose-gif.gif" alt=""> <div>${userScore} -${computerScore}</div><div id="game-btns">
               <button class="gme-btn-style" onclick="exitGame3();" >Play Again</button
               ><button class="gme-btn-style" onclick="exitGame2();">Exit</button>
