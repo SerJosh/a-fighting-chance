@@ -1,3 +1,132 @@
+/** Landing Page Button Functions */
+
+/** Landing Page -go to-> GAME PAGE addEventListener function via Play Button  */
+document.getElementById("start-game-btn").addEventListener("click", function () {
+    window.location.href = "#game-page";
+});
+
+/** Landing Page -go to-> HOW TO PLAY addEventListener function via How to Play Button */
+document.getElementById("hw-to-ply").addEventListener("click", function () {
+    window.location.href = "#hw-to-ply-page";
+});
+
+/** Landing Page -go to-> ABOUT THE GAME addEventListener function via About the Game Button  */
+document.getElementById("about-game").addEventListener("click", function () {
+    window.location.href = "#about-page";
+});
+
+/** Game Page Button Functions */
+
+/* Game Page -go to-> LANDING PAGE(resets Game Page) addEventListener function via Exit Button  **/
+document.getElementById("exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+/* GIF result Button Functions*/
+
+/**GIF Win Result -go to-> GAME PAGE(resets page) addEventListener function via Play Again Button */
+document.getElementById("back-btn3").addEventListener("click", function () {
+    window.location.href = "#game-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+/**GIF Loose Result -go to-> GAME PAGE(resets page) addEventListener function via Play Again Button */
+document.getElementById("back-btn4").addEventListener("click", function () {
+    window.location.href = "#game-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+/**GIF Win Result -go to-> LANDING PAGE(resets Game page) addEventListener function via Exit Button */
+document.getElementById("win-exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+    indow.location.href = "#landing-page";
+});
+
+/**GIF Loose Result -go to-> LANDING PAGE(resets Game page) addEventListener function via Exit Button */
+document.getElementById("loose-exit-game").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+    document.getElementById("result").textContent = ``;
+    document.getElementById("your-score").textContent = 0;
+    document.getElementById("opp-score").textContent = 0;
+    document.getElementById("game-left").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/monty-python-god3.jpg"
+                  alt="depicted God in Monty Python and the Holy Grail"
+                />
+                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+    document.getElementById("game-right").innerHTML = `<img
+                  class="knight-img"
+                  src="/assets/images/blk-knt-gme.webp"
+                  alt="Black Knight"
+                />
+                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+});
+
+/* How to Play Button Functions*/
+
+/** How to Play -go to-> LANDING PAGE addEventListener function via Back Button */
+document.getElementById("back-btn").addEventListener("click", function () {
+    window.location.href = "#landing-page";
+});
+
 /** How to Play -go to-> (innerHTML)RULE LIST onclick function via Rules Button */
 function rules() {
     let howToPlay = document.getElementById('hw-to-ply-page');
@@ -203,222 +332,22 @@ function backRules() {
                 </div></div>
                 <div><button class="button-spacing"  onclick="rules();">
                     Rules
-                </button> <button class="button-spacing" id="bck-landing" onclick="backToRules();">
+                </button> <button class="button-spacing" onclick="backToRules();">
                     Back
                 </button></div>`;
 }
 
-/**Win/Lose Gif(innerHTML) -go to-> LANDING PAGE onclick function via Exit Button */
-function exitGame2() {
-    window.location.href = "#landing-page";
-}
-
-/**Win/Lose Gif(innerHTML) -go to-> GAME PAGE(innerHTML) onclick function via Play Again Button*/
-function exitGame3() {
-    let howToPlay = document.getElementById('game-page');
-    howToPlay.innerHTML = `<div id="game-page">
-            <header><h1 id="logo">A Fighting Chance</h1></header>
-            <div id="game-btns">
-              <button class="gme-btn-style">Rules</button
-              ><button class="gme-btn-style" onclick="exitGame4();">Exit</button>
-            </div>
-            <div id="players">
-              <h3 id="player">Name</h3>
-              <h3 id="opponent">Black Knight</h3>
-            </div>
-            <div class="game-zone">
-              <div id="game-left">
-                <img
-                  class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
-                  alt="depicted God in Monty Python and the Holy Grail"
-                />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>
-              </div>
-              <div id="game-right">
-                <img
-                  class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
-                  alt="Black Knight"
-                />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>
-              </div>
-            </div>
-            <div id="vs">
-              <p>VS</p>
-              <p id="result"></p>
-            </div>
-            <hr>
-            <div id="score-area">
-              <div id="your-score">0</div>
-              <div id="opp-score">0</div>
-              <div id="score-center"><p>Score</p></div>
-            </div>
-            <hr>
-            <div><h3 id="knight-choice">Choose your Knight</h3></div>
-            <div id="all-knights-game">
-              <div class="knight-game">
-                <img
-                  class="knight-gme-img arthur"
-                  src="/assets/images/arthur.png"
-                  alt="arthur"
-                />
-              </div>
-              <div class="knight-game">
-                <img
-                  class="knight-gme-img lancelot"
-                  src="/assets/images/lancelot.png"
-                  alt="lancelot"
-                />
-              </div>
-              <div class="knight-game">
-                <img
-                  class="knight-gme-img robin"
-                  src="/assets/images/robin.png"
-                  alt="robin"
-                />
-              </div>
-              <div class="knight-game">
-                <img
-                  class="knight-gme-img galahad"
-                  src="/assets/images/galahad.png"
-                  alt="galahad"
-                />
-              </div>
-              <div class="knight-game">
-                <img
-                  class="knight-gme-img bedevere"
-                  src="/assets/images/bedevere.png"
-                  alt="bedevere"
-                />
-              </div>
-            </div>
-          </div>`;
-}
-
-
-/** ??? */
+/** How to Play(innerHTML) -go to-> LANDING PAGE onclick function via Back Button */
 function backToRules() {
     window.location.href = "#landing-page";
 }
 
-function exitGame4() {
-    window.location.href = "#landing-page";
-}
-/** ??? */
-
-
-/** Landing Page -go to-> GAME PAGE addEventListener function via Play Button  */
-document.getElementById("start-game-btn").addEventListener("click", function () {
-    window.location.href = "#game-page";
-});
-
-/** Landing Page -go to-> ABOUT THE GAME addEventListener function via About the Game Button  */
-document.getElementById("about-game").addEventListener("click", function () {
-    window.location.href = "#about-page";
-});
-
-/** How to Play(Original/InnerHTML !!!) -go to-> LANDING PAGE addEventListener function via Back Button */
-document.getElementById("back-btn").addEventListener("click", function () {
-    window.location.href = "#landing-page";
-});
+/**About the Game Button Functions */
 
 /** About the Game -go to-> LANDING PAGE addEventListener function via Back Button  */
 document.getElementById("back-btn2").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
-
-/** Landing Page -go to-> HOW TO PLAY addEventListener function via How to Play Button */
-document.getElementById("hw-to-ply").addEventListener("click", function () {
-    window.location.href = "#hw-to-ply-page";
-});
-
-/* Game Page(Original/InnerHTML !!!) -go to-> LANDING PAGE addEventListener function via Exit Button  **/
-document.getElementById("exit-game").addEventListener("click", function () {
-    window.location.href = "#landing-page";
-});
-
-/* GIF result to game */
-
-document.getElementById("back-btn3").addEventListener("click", function () {
-    window.location.href = "#game-page";
-    document.getElementById("result").textContent = ``;
-    document.getElementById("your-score").textContent = 0;
-    document.getElementById("opp-score").textContent = 0;
-    document.getElementById("game-left").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
-                  alt="depicted God in Monty Python and the Holy Grail"
-                />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
-    document.getElementById("game-right").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
-                  alt="Black Knight"
-                />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
-});
-
-document.getElementById("back-btn4").addEventListener("click", function () {
-    window.location.href = "#game-page";
-    document.getElementById("result").textContent = ``;
-    document.getElementById("your-score").textContent = 0;
-    document.getElementById("opp-score").textContent = 0;
-    document.getElementById("game-left").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
-                  alt="depicted God in Monty Python and the Holy Grail"
-                />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
-    document.getElementById("game-right").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
-                  alt="Black Knight"
-                />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
-});
-
-document.getElementById("win-exit-game").addEventListener("click", function () {
-    window.location.href = "#landing-page";
-    document.getElementById("result").textContent = ``;
-    document.getElementById("your-score").textContent = 0;
-    document.getElementById("opp-score").textContent = 0;
-    document.getElementById("game-left").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
-                  alt="depicted God in Monty Python and the Holy Grail"
-                />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
-    document.getElementById("game-right").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
-                  alt="Black Knight"
-                />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
-    indow.location.href = "#landing-page";
-});
-
-document.getElementById("loose-exit-game").addEventListener("click", function () {
-    window.location.href = "#landing-page";
-    document.getElementById("result").textContent = ``;
-    document.getElementById("your-score").textContent = 0;
-    document.getElementById("opp-score").textContent = 0;
-    document.getElementById("game-left").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
-                  alt="depicted God in Monty Python and the Holy Grail"
-                />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
-    document.getElementById("game-right").innerHTML = `<img
-                  class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
-                  alt="Black Knight"
-                />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
-});
-
-
-
 
 /** THE GAME */
 
