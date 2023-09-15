@@ -411,9 +411,6 @@ hr {
     width: 70%;
     height: 150px;
     margin: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
     border-radius: 5%;
 }
 
@@ -569,4 +566,77 @@ hr {
 .gme-rule-btn-style:hover {
     background-color: #fafafa;
     color: black;
+}
+
+/** Media Queries **/
+
+/** Landing Page **/
+
+@media screen and (max-width:749px) {
+
+    body {
+
+        background-color: black;
+        background-image: none;
+    }
+
+    #phone {
+
+        border-color: white;
+        /**change**/
+    }
+}
+
+@media screen and (max-width:449px) {
+
+    #all-knights {
+        height: 120px;
+    }
+
+    .knight {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:399px) {
+
+    #all-knights {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width:349px) {
+
+    .knight-img {
+        width: 80%;
+        height: 60%;
+    }
+
+    #logo {
+        font-size: 255%;
+    }
+}
+
+/** About the Game **/
+
+@media screen and (max-width:521px) {
+
+    .about-content {
+        height: 100px;
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width:441px) {
+
+    .about-content {
+        font-size: 230%;
+    }
+}
+
+@media screen and (max-width:347px) {
+
+    .about-content {
+        font-size: 210%;
+    }
 }
