@@ -358,6 +358,18 @@ document.getElementById("back-btn2").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
 
+/** Getting the Player Name to the Game page function */
+
+function PlayerName() {
+    let inputValue = document.getElementById("name").value;
+    document.getElementById("player").innerText = inputValue;
+};
+
+
+
+
+
+
 /** THE GAME */
 
 function game() {
@@ -456,9 +468,9 @@ function game() {
         let userScore = parseInt(document.getElementById("your-score").textContent);
         let computerScore = parseInt(document.getElementById("opp-score").textContent);
 
-        if (userScore >= 3) {
+        if (userScore >= 5) {
             window.location.href = "#gif-win";
-        } else if (computerScore >= 3) {
+        } else if (computerScore >= 5) {
             window.location.href = "#gif-loose";
         }
     }
