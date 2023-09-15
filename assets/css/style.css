@@ -419,6 +419,7 @@ hr {
 #how2plytext {
     font-size: 270%;
     margin: 15px;
+    height: 200px;
 }
 
 .how2plyknght {
@@ -639,4 +640,30 @@ hr {
     .about-content {
         font-size: 210%;
     }
+}
+
+/** How to Play Page **/
+
+@media screen and (max-width:501px) {
+    #how2plytext {
+        font-size: 240%;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:448px) {
+
+    #how2plyhead {
+        font-size: 150%;
+    }
+
+    #how2plytext {
+        font-size: 220%;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width:410px) {
+
+    #rule-btns {}
 }
