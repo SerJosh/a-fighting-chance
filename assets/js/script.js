@@ -1,8 +1,12 @@
 /** Landing Page Button Functions */
 
-/** Landing Page -go to-> GAME PAGE addEventListener function via Play Button  */
+/** Landing Page -go to-> GAME PAGE addEventListener function via Play Button,
+ *  Getting the Player Name to the Game page function */
 document.getElementById("start-game-btn").addEventListener("click", function () {
     window.location.href = "#game-page";
+    let inputValue = document.getElementById("name").value;
+    document.getElementById("player").innerText = inputValue;
+
 });
 
 /** Landing Page -go to-> HOW TO PLAY addEventListener function via How to Play Button */
@@ -154,18 +158,6 @@ document.getElementById("back-btn2").addEventListener("click", function () {
     window.location.href = "#landing-page";
 });
 
-/** Getting the Player Name to the Game page function */
-
-function PlayerName() {
-    let inputValue = document.getElementById("name").value;
-    document.getElementById("player").innerText = inputValue;
-};
-
-
-
-
-
-
 /** THE GAME */
 
 function game() {
@@ -208,11 +200,10 @@ function game() {
         }
         return target.classList[1];
     }
-
     function getComputerChoice() {
         return actions[Math.floor(Math.random() * 5)];
     }
-
+ 
     function calculateWinner(user, comp) {
         if (user === comp) {
             resultTitleElement.innerText = 'Draw';

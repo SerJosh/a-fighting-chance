@@ -60,6 +60,7 @@ p {
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     overflow-x: auto;
+    height: 1000px;
 }
 
 .section-slides>div {
@@ -96,6 +97,8 @@ p {
     overflow: hidden
 }
 
+/** Landing Page **/
+
 /** Heading in Phone div **/
 
 #logo {
@@ -126,7 +129,7 @@ p {
     border-color: white;
 }
 
-/** Buttons on Landing page **/
+/** Buttons and Name Input on Landing page **/
 
 .button-spacing {
     margin: 20px;
@@ -280,8 +283,6 @@ footer a:hover {
     font-size: 30%;
 
 }
-
-
 
 /** Game Zone Ingame Content **/
 
