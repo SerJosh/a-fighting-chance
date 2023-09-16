@@ -464,6 +464,11 @@ hr {
             0 15px);
 }
 
+.button-spacing-how:hover {
+    background-color: #fafafa;
+    color: black;
+}
+
 /** Rules Page **/
 
 .rulediv {
@@ -543,9 +548,13 @@ hr {
     width: 80%;
 }
 
-/** Rules on Game Page **/
+/** Rules on Game and How to Play Page **/
 
 #game-rules {
+    height: 1200px;
+}
+
+#game-rules2 {
     height: 1200px;
 }
 
@@ -605,8 +614,7 @@ hr {
 
     #phone {
 
-        border-color: white;
-        /**change**/
+        border-color: black;
     }
 }
 
@@ -871,5 +879,39 @@ hr {
     #result {
         margin-top: 60px;
         font-size: 24%;
+    }
+}
+
+/** Rule list **/
+
+@media screen and (max-width:460px) {
+    .right-rule {
+        font-size: 200%;
+    }
+
+    .left-rule {
+        font-size: 200%;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+    .beats-rule {
+        font-size: 180%;
+        margin-top: 21px;
+    }
+
+    .right-rule {
+        font-size: 180%;
+    }
+
+    .left-rule {
+        font-size: 180%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .knight-img-rule-gme {
+        height: 35px;
     }
 }
