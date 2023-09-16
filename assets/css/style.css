@@ -721,6 +721,15 @@ hr {
     #game-right {
         height: 200px;
     }
+
+    #all-knights-ingame {
+        height: 110px;
+    }
+
+    #result {
+        margin-top: 90px;
+        font-size: 25%;
+    }
 }
 
 @media screen and (max-width:467px) {
@@ -775,6 +784,20 @@ hr {
         height: 40%;
     }
 
+    #all-knights-ingame {
+        height: 80px;
+        width: 19%;
+    }
+
+    #text-center-ingame {
+        margin-left: 141%;
+        font-size: 25%;
+    }
+
+    #result {
+        margin-top: 70px;
+        font-size: 25%;
+    }
 }
 
 @media screen and (max-width:380px) {
@@ -821,7 +844,28 @@ hr {
         margin-right: 55px;
     }
 
-    knight-gme-img {
+    .knight-gme-img {
         height: 35%;
+    }
+
+    .knight-img-ingame {
+        height: 170%;
+    }
+
+    #all-knights-ingame {
+        height: 50px;
+    }
+
+    #result {
+        margin-top: 60px;
+        font-size: 30%;
+    }
+}
+
+
+@media screen and (max-width:351px) {
+    #result {
+        margin-top: 60px;
+        font-size: 24%;
     }
 }
