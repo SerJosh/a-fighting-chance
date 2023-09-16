@@ -28,13 +28,13 @@ document.getElementById("exit-game").addEventListener("click", function () {
                   src="/assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+                <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
                   src="/assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+                <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
 /** Game Page -go to-> RULE LIST(Game Page option) addEventListener function via Rules Button */
@@ -60,13 +60,13 @@ document.getElementById("back-btn3").addEventListener("click", function () {
                   src="/assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+                <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
                   src="/assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+                <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
 /**GIF Loose Result -go to-> GAME PAGE(resets page) addEventListener function via Play Again Button */
@@ -80,13 +80,13 @@ document.getElementById("back-btn4").addEventListener("click", function () {
                   src="/assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+                <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
                   src="/assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+                <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
 /**GIF Win Result -go to-> LANDING PAGE(resets Game page) addEventListener function via Exit Button */
@@ -100,13 +100,13 @@ document.getElementById("win-exit-game").addEventListener("click", function () {
                   src="/assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+                <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
                   src="/assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+                <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
 /**GIF Loose Result -go to-> LANDING PAGE(resets Game page) addEventListener function via Exit Button */
@@ -120,13 +120,13 @@ document.getElementById("loose-exit-game").addEventListener("click", function ()
                   src="/assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
-                <p><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
+                <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
                   src="/assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
-                <p><em>Have&nbsp;at&nbsp;you!</em></p>`;
+                <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
 });
 
 /* How to Play Button Functions*/

@@ -711,3 +711,117 @@ hr {
         font-size: 85%;
     }
 }
+
+/** Game Page **/
+@media screen and (max-width:500px) {
+    #game-left {
+        height: 200px;
+    }
+
+    #game-right {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:467px) {
+    #opponent {
+        font-size: 160%;
+    }
+
+    #player {
+        font-size: 160%;
+    }
+
+    .player-quote {
+        font-size: 30%;
+    }
+
+    .opp-quote {
+        font-size: 30%;
+    }
+
+    .knight-gme-img {
+        width: 75%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:424px) {
+    #opponent {
+        font-size: 140%;
+    }
+
+    #player {
+        font-size: 140%;
+        margin-left: 10.5%;
+    }
+
+    #game-right {
+        height: 170px;
+    }
+
+    #game-left {
+        height: 170px;
+    }
+
+    #vs {
+
+        font-size: 350%;
+        width: 8%;
+        margin-top: 50px;
+    }
+
+    .knight-gme-img {
+        height: 40%;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    #opponent {
+        font-size: 100%;
+    }
+
+    #player {
+        font-size: 100%;
+    }
+
+    #players {
+        height: 40px;
+    }
+
+    #game-left {
+        height: 150px;
+    }
+
+    #game-right {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:351px) {
+    #vs {
+        font-size: 250%;
+
+        margin-top: 40px;
+    }
+
+    #score-center {
+        font-size: 270%;
+
+    }
+
+    #your-score {
+        font-size: 120%;
+        margin-left: 55px;
+    }
+
+    #opp-score {
+        font-size: 120%;
+        margin-right: 55px;
+    }
+
+    knight-gme-img {
+        height: 35%;
+    }
+}
