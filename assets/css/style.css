@@ -418,7 +418,7 @@ hr {
 
 #how2plytext {
     font-size: 270%;
-    margin: 15px;
+    margin: 18px;
     height: 200px;
 }
 
@@ -444,6 +444,24 @@ hr {
     border-width: 2px;
     border-color: white;
     margin-top: 5px;
+}
+
+.button-spacing-how {
+    margin: 20px;
+    font-size: 150%;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    background-color: darkgreen;
+    color: #fafafa;
+    background: linear-gradient(45deg);
+    clip-path: polygon(15px 0,
+            calc(100% - 15px) 0,
+            100% 15px,
+            100% calc(100% - 15px),
+            calc(100% - 15px) 100%,
+            15px 100%,
+            0 calc(100% - 15px),
+            0 15px);
 }
 
 /** Rules Page **/
@@ -665,5 +683,31 @@ hr {
 
 @media screen and (max-width:410px) {
 
-    #rule-btns {}
+    .how-knight-img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .button-spacing-how {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:381px) {
+    #how2plytext {
+        font-size: 195%;
+    }
+}
+
+@media screen and (max-width:379px) {
+
+    .button-spacing-how {
+        margin: 2px;
+        font-size: 80%;
+        padding: 10px 45px 10px 45px;
+    }
+
+    .how2plyknght {
+        font-size: 85%;
+    }
 }
