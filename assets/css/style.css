@@ -539,6 +539,10 @@ hr {
     height: 1000px;
 }
 
+.gif-div {
+    width: 80%;
+}
+
 /** Rules on Game Page **/
 
 #game-rules {
