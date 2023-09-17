@@ -97,64 +97,120 @@ Obviously as you can see, the finished game does not look too much like the wire
 
 - **Background**
 ![Background image](assets/readme-files/black-knight3.png)
+  
    A background of the Black Knight has been added to devices with screens 750px wide and up to add some context to the Game.
 
 ### Landing Page
 
+![Landing Page](assets/readme-files/landing-page.png)
+
 - **Knight Images**
 ![Knights images](assets/readme-files/knights-images.png)
 
+Displays images of all the knights displayed for you to see what you playing with.
+
 - **Name input field**
-![Knights images](assets/readme-files/your-name.png)
+![Name Input](assets/readme-files/your-name.png)
+
+Displays A text input for you to Put down any name you want to use in the game.
 
 - **Landing Page Buttons**
-![Knights images](assets/readme-files/landing-page-buttons.png)
+![Landing Page Buttons](assets/readme-files/landing-page-buttons.png)
+
+A choice of buttons, Play, How to Play and About Us to go to the desired page from the Landing Page.
 
 - **Landing Page Footer**
-![Knights images](assets/readme-files/footer.png)
+![Footer](assets/readme-files/footer.png)
+
+A footer to go to the desired social media platforms.
 
 ### Game Page
 
+![Game Page](assets/readme-files/game-page.png)
+
 - **Game Page Buttons**
+  
 ![Game Buttons](assets/readme-files/game-buttons.png)
+
+Game Buttons giving you the option of seeing the rules or going back to the Landing Page, resetting the game.
 
 - **Game Zone before game**
 ![Game zone(before game)](assets/readme-files/game-zone-before.png)
 
+Displays the game before the first knight is has been chosen, showing the Monty Python depicted God and the Black Knight, each with their own quotes from the movie.
+
 - **Game Zone during game**
 ![Game zone(before game)](assets/readme-files/game-zone.png)
+
+Displays the game during the first knight has been chosen, showing youe chosen knight, the opponents chosen knight and the knights names and if you beat them or lose, or even a draw.
 
 - **Game Score**
 ![Game Score](assets/readme-files/game-score.png)
 
+Displays the score in which the score on the left is your score and the one on the right is the opponents score.
+
 - **Knight Choice**
 ![List of Knight options](assets/readme-files/game-knight-choice.png)
 
+Displays the choice of Knights to choose from in which to use in the game, with a hover element of dark green on them.
+
 ### How to Play
+
+![How to Play page](assets/readme-files/how-to-play.png)
 
 - **How to Play text content and heading**
 ![How to Play content](assets/readme-files/hw-2-ply.png)
 
+Displays the Heading and text content of the How to Play page, explaining how to play the game.
+
 - **How to Play Knights**
 ![How to Play Knights](assets/readme-files/hw-2-ply-knghts.png)
 
+Displays the Knights used in the game.
+
 - **How to Play Buttons**
 ![How to Play Buttons](assets/readme-files/hw-2-ply-btns.png)
+
+A list of Buttons. Back which goes back to the landing page and Rules, going to the rules page.
 
 ### About the Game
 
 - **About the Game text content, image and heading**
 ![About the Game content](assets/readme-files/abt-the-gme.png)
 
+Displays the Heading, image of the Black Knight and text content of the About the Game page, giving more insight into the game and what you are playing for and against.
+
 - **About the Game Back button**
 ![About the Game Back button](assets/readme-files/abt-the-gme-btn.png)
+
+A Back button, taking you back to the landing page.
 
 ### Rules
 
 - **Rules Back button**
+  
 ![Rules Back button](assets/readme-files/rules-bk.png)
+
+A Back button, taking you back to either the landing page or the game page, depending where you clicked on the rules button (either the game page or how to play page).
 
 - **Rules who beats who content**
 ![Rules who beats who](assets/readme-files/rules-who.png)
 
+A list of the ten variations of who beats who in the game.
+
 ### GIFs
+
+- **GIF win result**
+![GIF win result](assets/readme-files/gif-win.png)
+
+Displays a victorious GIF with the Heading, Winner.
+
+- **GIF loose result**
+![GIF loose result](assets/readme-files/gif-loose.png)
+
+Displays a loosing GIF with the Heading, Loose...
+
+- **GIF Buttons**
+![GIF Buttons](assets/readme-files/gif-buttons.png)
+
+A list of Buttons, Play Again and Exit. Play again takes you back to the game page, refreshing the page to play again, and the exit button takes you back to the landing page also refreshing the game page.
