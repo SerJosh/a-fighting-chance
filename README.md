@@ -21,6 +21,7 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
   - [Features](#features)
     - [General](#general)
     - [Landing Page](#landing-page)
+    - [Game Page](#game-page)
 
 ## User Experience (UX)
 
@@ -96,11 +97,31 @@ Obviously as you can see, the finished game does not look too much like the wire
 
 ### Landing Page
 
-* **Main Image**
- - 
+- **Knight Images**
+![Knights images](assets/readme-files/knights-images.png)
 
-* **Main Buttons and Name input**
- -
+- **Name input field**
+![Knights images](assets/readme-files/your-name.png)
 
- 
+- **Landing Page Buttons**
+![Knights images](assets/readme-files/landing-page-buttons.png)
 
+- **Landing Page Footer**
+![Knights images](assets/readme-files/footer.png)
+
+### Game Page
+
+- **Game Page Buttons**
+![Game Buttons](assets/readme-files/game-buttons.png)
+
+- **Game Zone before game**
+![Game zone(before game)](assets/readme-files/game-zone-before.png)
+
+- **Game Zone during game**
+![Game zone(before game)](assets/readme-files/game-zone.png)
+
+- **Game Score**
+![Game Score](assets/readme-files/game-score.png)
+
+- **Knight Choice**
+![List of Knight options](assets/readme-files/game-knight-choice.png)
