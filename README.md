@@ -17,6 +17,7 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [User Stories](#user-stories)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
+    - [Wireframes](#wireframes)
 
 ## User Experience (UX)
 
@@ -52,12 +53,23 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
 
 ### Color Scheme
 
-![Color scheme image](assets/readme-files/color-scheme.png)
+![Color scheme image](assets/readme-files/color-scheme2.png)
 
-The colors used in the site are white (#ffffff) for the navigation bar, slides background and some hover effects, a tone of orange (#bf834a) for closing buttons and buttons' hover effect, a tone of green (#789053) for the background and buttons, a blue color (#344b99) and a dark color (#151311) for the text.
+The colors used in the site are black (#000000) and Forest/dark green (0C952A). It is a contrast of colours used throughout the Game, where the dark green is used for the buttons and hover effects and Black used for the background of the phone to make the other colours stand out. And of course all text in the colour of White (#FFFFFF) to stand out from the black used in the background.
 
-The colors scheme is inspired on the game's main image. This way each color represents the 5 different weapons (rock, paper, scissors, lizard and Spock) used in the game.
+The colors scheme is inspired by the forest where the battle of the Black Knight and King Arthur took place.
 
 ### Typography
 
-The main font used in the site is Nunito, as suggested by Google Fonts for appropriate pairings with Odibee Sans, with Sans Serif as the fallback font in case Nunito is not being imported correctly. Odibee Sans is used for the headings and the logo for the gaming design it provides with Cursive as fallback.
+The Fonts used are Pirata One, Barlow Semi Condensed and sans-serif which I chose myself. Pirata One was used in all headings for the medieval vibe in which the theme of the movie the game used took place, Barlow Semi Condensed used for the text in the Game for its simplicity and clarity and sans-serif used as back up if the others are unable to come up.
+
+### Wireframes
+
+[Balsamiq](https://balsamiq.com/) has been used to plan a structure of the appearance of the site and display the placement of the different elements in the game.
+
+![Landing Page section wireframe image](assets/readme-files/wireframe1.png)
+![Game Page wireframe image](assets/readme-files/wireframe2.png)
+
+Obviously as you can see, the finished game does not look too much like the wireframes anymore. It was more of a guideline for how I originally wanted it to look in my head, and as i developed the project new and improved ideas came to me and I adjusted it accordingly.
+
+[Back to top ⇧](#A Fighting Chance)
