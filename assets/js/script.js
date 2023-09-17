@@ -29,13 +29,13 @@ document.getElementById("exit-game").addEventListener("click", function () {
     document.getElementById("opp-score").textContent = 0;
     document.getElementById("game-left").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
+                  src="assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
                 <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
+                  src="assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
                 <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
@@ -61,13 +61,13 @@ document.getElementById("back-btn3").addEventListener("click", function () {
     document.getElementById("opp-score").textContent = 0;
     document.getElementById("game-left").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
+                  src="assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
                 <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
+                  src="assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
                 <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
@@ -81,13 +81,13 @@ document.getElementById("back-btn4").addEventListener("click", function () {
     document.getElementById("opp-score").textContent = 0;
     document.getElementById("game-left").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
+                  src="assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
                 <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
+                  src="assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
                 <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
@@ -101,13 +101,13 @@ document.getElementById("win-exit-game").addEventListener("click", function () {
     document.getElementById("opp-score").textContent = 0;
     document.getElementById("game-left").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
+                  src="assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
                 <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
+                  src="assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
                 <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
@@ -121,13 +121,13 @@ document.getElementById("loose-exit-game").addEventListener("click", function ()
     document.getElementById("opp-score").textContent = 0;
     document.getElementById("game-left").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/monty-python-god3.jpg"
+                  src="assets/images/monty-python-god3.jpg"
                   alt="depicted God in Monty Python and the Holy Grail"
                 />
                 <p class="player-quote"><em>Get&nbsp;on&nbsp;with&nbsp;it!</em></p>`;
     document.getElementById("game-right").innerHTML = `<img
                   class="knight-img"
-                  src="/assets/images/blk-knt-gme.webp"
+                  src="assets/images/blk-knt-gme.webp"
                   alt="Black Knight"
                 />
                 <p class="opp-quote"><em>Have&nbsp;at&nbsp;you!</em></p>`;
@@ -226,7 +226,7 @@ function game() {
     /** Function to create elements on screen displaying choices of both player and opponent */
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
-        el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame"><strong>${className}</strong></p></div>`;
+        el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="assets/images/${className}.png" alt="${className}"><p id="text-center-ingame"><strong>${className}</strong></p></div>`;
         if (isItUserElement) {
             userPickElement.append(el);
         } else {
