@@ -23,6 +23,9 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [Landing Page](#landing-page)
     - [Game Page](#game-page)
     - [How to Play](#how-to-play)
+    - [About the Game](#about-the-game)
+    - [Rules](#rules)
+    - [GIFs](#gifs)
 
 ## User Experience (UX)
 
@@ -130,10 +133,28 @@ Obviously as you can see, the finished game does not look too much like the wire
 ### How to Play
 
 - **How to Play text content and heading**
-![How to Play text content](assets/readme-files/hw-2-ply.png)
+![How to Play content](assets/readme-files/hw-2-ply.png)
 
 - **How to Play Knights**
 ![How to Play Knights](assets/readme-files/hw-2-ply-knghts.png)
 
 - **How to Play Buttons**
 ![How to Play Buttons](assets/readme-files/hw-2-ply-btns.png)
+
+### About the Game
+
+- **About the Game text content, image and heading**
+![About the Game content](assets/readme-files/abt-the-gme.png)
+
+- **About the Game Back button**
+![About the Game Back button](assets/readme-files/abt-the-gme-btn.png)
+
+### Rules
+
+- **Rules Back button**
+![Rules Back button](assets/readme-files/rules-bk.png)
+
+- **Rules who beats who content**
+![Rules who beats who](assets/readme-files/rules-who.png)
+
+### GIFs
