@@ -18,6 +18,9 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
     - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [General](#general)
+    - [Landing Page](#landing-page)
 
 ## User Experience (UX)
 
@@ -73,3 +76,32 @@ The Fonts used are Pirata One, Barlow Semi Condensed and sans-serif which I chos
 Obviously as you can see, the finished game does not look too much like the wireframes anymore. It was more of a guideline for how I originally wanted it to look in my head, and as i developed the project new and improved ideas came to me and I adjusted it accordingly.
 
 [Back to top ⇧](#A Fighting Chance)
+
+## Features
+
+### General
+
+- The website has been designed from a mobile first perspective.
+
+- Responsive design across all device sizes.
+
+- **Header**
+![Header image](assets/readme-files/game-logo.png)
+
+  The header contains the game logo A Fighting Chance .
+
+- **Background**
+![Background image](assets/readme-files/black-knight3.png)
+   A background of the Black Knight has been added to devices with screens 750px wide and up to add some context to the Game.
+
+### Landing Page
+![Home section image](assets/readme-files/home-section.png)
+
+* **Main Image**
+ - 
+
+* **Main Buttons and Name input**
+ -
+
+ 
+
