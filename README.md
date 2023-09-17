@@ -120,6 +120,7 @@ Displays A text input for you to Put down any name you want to use in the game.
 A choice of buttons, Play, How to Play and About Us to go to the desired page from the Landing Page.
 
 - **Landing Page Footer**
+  
 ![Footer](assets/readme-files/footer.png)
 
 A footer to go to the desired social media platforms.
