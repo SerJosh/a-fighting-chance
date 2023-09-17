@@ -81,7 +81,7 @@ Obviously as you can see, the finished game does not look too much like the wire
 
 ### General
 
-- The website has been designed from a mobile first perspective.
+- This game has been designed from a mobile first perspective.
 
 - Responsive design across all device sizes.
 
@@ -95,7 +95,6 @@ Obviously as you can see, the finished game does not look too much like the wire
    A background of the Black Knight has been added to devices with screens 750px wide and up to add some context to the Game.
 
 ### Landing Page
-![Home section image](assets/readme-files/home-section.png)
 
 * **Main Image**
  - 

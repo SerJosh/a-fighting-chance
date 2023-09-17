@@ -161,6 +161,9 @@ document.getElementById("back-btn2").addEventListener("click", function () {
 /** THE GAME */
 
 function game() {
+    /** Add all options(classes) and win results from options(classes)
+     * Get all elemenets used in the game
+     */
     const actions = ['arthur', 'lancelot', 'robin', 'galahad', 'bedevere'];
     const userWinResults = ['robinlancelot', 'lancelotarthur', 'arthurgalahad', 'galahadbedevere', 'bedevererobin',
         'robingalahad', 'galahadlancelot', 'lancelotbedevere', 'arthurrobin', 'bedeverearthur'];
@@ -172,9 +175,9 @@ function game() {
     const pcPickElement = document.querySelector('#game-right');
     const resultElement = document.querySelector('#vs');
     const resultTitleElement = resultElement.querySelector('#result');
-
+    /** Wait for game to load before actions occur */
     window.addEventListener('load', () => {
-
+        /** Add eventListner to all knight choices to start game */
         document.querySelectorAll('#all-knights-game .knight-game').forEach(knight => {
             knight.addEventListener('click', (ev) => {
                 userChoice = getUserChoice(ev.target);
@@ -184,7 +187,7 @@ function game() {
             });
         });
     });
-
+    /** Function for actions when game is started */
     function startGame() {
         calculateWinner(userChoice, compChoice);
         userChoiceElement.classList.add('hidden');
@@ -193,17 +196,18 @@ function game() {
         buildChoiceElement(true, userChoice);
         buildChoiceElement(false, compChoice);
     }
-
+    /** Function to get Knight selected by player from the Knight options */
     function getUserChoice(target) {
         if (target.nodeName === 'img') {
             return target.parentElement.classList[1];
         }
         return target.classList[1];
     }
+    /** Function to create random choice of Knights by opponent */
     function getComputerChoice() {
         return actions[Math.floor(Math.random() * 5)];
     }
- 
+    /** Function to calculate the display if player wins, loses, or draws */
     function calculateWinner(user, comp) {
         if (user === comp) {
             resultTitleElement.innerText = 'Draw';
@@ -215,11 +219,11 @@ function game() {
             increaseComputerScore();
         }
     }
-
+    /** Function to check if the choice you chose(the string) is the winning choice(winning string) */
     function getUserWinsStatus(result) {
         return userWinResults.some(winStr => winStr === result);
     }
-
+    /** Function to create elements on screen displaying choices of both player and opponent */
     function buildChoiceElement(isItUserElement, className) {
         const el = document.createElement('div');
         el.innerHTML = `<div class="knight-game" id="all-knights-ingame"> <img class="knight-img-ingame" src="/assets/images/${className}.png" alt="${className}"><p id="text-center-ingame"><strong>${className}</strong></p></div>`;
@@ -229,32 +233,28 @@ function game() {
             pcPickElement.append(el);
         }
     }
-
+    /** Function to clear old choices to make way for the new choices */
     function clearResultBeforeAppend() {
         userPickElement.innerHTML = '';
         pcPickElement.innerHTML = '';
     }
-
+    /** Function to add to your score */
     function increaseUserScore() {
         let oldScore = parseInt(document.getElementById("your-score").textContent);
         document.getElementById("your-score").textContent = ++oldScore;
         countRounds();
-
     }
 
-
+    /** Function to add to opponents score */
     function increaseComputerScore() {
         let oldScore = parseInt(document.getElementById("opp-score").textContent);
         document.getElementById("opp-score").textContent = ++oldScore;
         countRounds();
-
-
     }
-
+    /** Function to determine who wins the overall game out of 5 */
     function countRounds() {
         let userScore = parseInt(document.getElementById("your-score").textContent);
         let computerScore = parseInt(document.getElementById("opp-score").textContent);
-
         if (userScore >= 5) {
             window.location.href = "#gif-win";
         } else if (computerScore >= 5) {
