@@ -26,6 +26,11 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [About the Game](#about-the-game)
     - [Rules](#rules)
     - [GIFs](#gifs)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+  - [Testing](#testing)
+    - [Testing User Stories](#testing-user-stories)
 
 ## User Experience (UX)
 
@@ -231,3 +236,60 @@ Displays a loosing GIF with the Heading, Loose...
 ![GIF Buttons](assets/readme-files/gif-buttons.png)
 
 A list of Buttons, Play Again and Exit. Play again takes you back to the game page, refreshing the page to play again, and the exit button takes you back to the landing page also refreshing the game page.
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries and Programs Used
+
+- [Google Fonts](https://fonts.google.com/)
+- Google Fonts was used to import the fonts of Pirata One and Barlow semi condensed into the style.css file. These fonts were used throughout the game.
+
+- [Font Awesome](https://fontawesome.com/)
+  - Font Awesome was used for the Footer icons used on the Landing Page.
+
+- [Codeanywhere](https://gitpod.io/)
+  - Codeabywhere was used for writing code, committing, and then pushing the project to GitHub.
+
+- [GitHub](https://github.com/)
+  - GitHub was used to store the project after pushing.
+  
+- [Balsamiq](https://balsamiq.com/)
+  - Balsamiq was used to create the wireframes for the general beginning structure of the game.
+
+- [Replit](https://replit.com/)
+  - Replit was used for the beginning structures, designs, and experimental Javascript for the project before beginning them on Codeanywhere.
+
+- [TinyPNG](https://tinypng.com/)
+  - TinyPNG was used to condense the images used throughout the game to make the game load faster.
+
+- [Am I Responsive?](http://ami.responsivedesign.is/#)
+  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+- [Responsive Design Checker](https://www.responsivedesignchecker.com/)
+  - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - Chrome DevTools was used during development process for code review and to test responsiveness.
+
+- [W3C Markup Validator](https://validator.w3.org/)
+  - W3C Markup Validator was used to validate the HTML code.
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  - W3C CSS Validator was used to validate the CSS code.
+
+- [JSHint](https://jshint.com/)
+  - The JSHints JavaScript Code Quality Tool was used to validate the site's JavaScript code.
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Testing
+
+### Testing User Stories
