@@ -31,6 +31,19 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
   - [Testing](#testing)
     - [Testing User Stories](#testing-user-stories)
+    - [Code Validation](#code-validation)
+    - [Accessibility](#accessibility)
+    - [Tools Testing](#tools-testing)
+    - [Manual Testing](#manual-testing)
+    - [Known Bugs](#known-bugs)
+  - [Finished Product](#finished-product)
+  - [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Code](#code)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 
@@ -271,13 +284,13 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
   - TinyPNG was used to condense the images used throughout the game to make the game load faster.
 
 - [Am I Responsive?](http://ami.responsivedesign.is/#)
-  - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+  - Am I Responsive was used to see responsive design of the Game.
 
 - [Responsive Design Checker](https://www.responsivedesignchecker.com/)
-  - Responsive Design Checker was used in the testing process to check responsiveness on various devices.
+  - Responsive Design Checker was used to test the responsiveness on various devices.
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  - Chrome DevTools was used during development process for code review and to test responsiveness.
+  - Chrome DevTools was used during the development process for the game to test the game and to test responsiveness.
 
 - [W3C Markup Validator](https://validator.w3.org/)
   - W3C Markup Validator was used to validate the HTML code.
@@ -286,10 +299,46 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
   - W3C CSS Validator was used to validate the CSS code.
 
 - [JSHint](https://jshint.com/)
-  - The JSHints JavaScript Code Quality Tool was used to validate the site's JavaScript code.
+  - JSHints JavaScript Code Quality Tool was used to validate the game's JavaScript code.
 
 [Back to top ⇧](#A Fighting Chance)
 
 ## Testing
 
 ### Testing User Stories
+
+### Code Validation
+
+### Accessibility
+
+### Tools Testing
+
+### Manual Testing
+
+### Known Bugs
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Finished Product
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Deployment
+
+### GitHub Pages
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Credits
+
+### Content
+
+### Media
+
+### Code
+
+[Back to top ⇧](#A Fighting Chance)
+
+## Acknowledgements
+
+[Back to top ⇧](#A Fighting Chance)
