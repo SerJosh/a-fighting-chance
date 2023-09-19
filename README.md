@@ -97,7 +97,7 @@ The Fonts used are Pirata One, Barlow Semi Condensed and sans-serif which I chos
 
 Obviously as you can see, the finished game does not look too much like the wireframes anymore. It was more of a guideline for how I originally wanted it to look in my head, and as i developed the project new and improved ideas came to me and I adjusted it accordingly.
 
-[Back to top ⇧](#A Fighting Chance)
+[Back to top](#a-fighting-chance)
 
 ## Features
 
@@ -249,7 +249,7 @@ Displays a loosing GIF with the Heading, Loose...
 
 A list of Buttons, Play Again and Exit. Play again takes you back to the game page, refreshing the page to play again, and the exit button takes you back to the landing page also refreshing the game page.
 
-[Back to top ⇧](#A Fighting Chance)
+[Back to top](#a-fighting-chance)
 
 ## Technologies Used
 
@@ -267,7 +267,7 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
 - [Font Awesome](https://fontawesome.com/)
   - Font Awesome was used for the Footer icons used on the Landing Page.
 
-- [Codeanywhere](https://gitpod.io/)
+- [Codeanywhere](https://app.codeanywhere.com/)
   - Codeabywhere was used for writing code, committing, and then pushing the project to GitHub.
 
 - [GitHub](https://github.com/)
@@ -275,6 +275,9 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
   
 - [Balsamiq](https://balsamiq.com/)
   - Balsamiq was used to create the wireframes for the general beginning structure of the game.
+
+- [Google](https://google.com/)
+  - Google was used often for images, sites for information and use in the project. 
 
 - [Replit](https://replit.com/)
   - Replit was used for the beginning structures, designs, and experimental Javascript for the project before beginning them on Codeanywhere.
@@ -300,7 +303,7 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
 - [JSHint](https://jshint.com/)
   - JSHints JavaScript Code Quality Tool was used to validate the game's JavaScript code.
 
-[Back to top ⇧](#A Fighting Chance)
+[Back to top](#a-fighting-chance)
 
 ## Testing
 
@@ -434,7 +437,7 @@ JSHint returned one undefined variable and three unused variables. The undefined
    **Google Pixel**
    No appearance, responsiveness nor functionality issues.
 
-  - Common Elements Testing
+- Common Elements Testing
 
     **General**
 
@@ -508,47 +511,102 @@ JSHint returned one undefined variable and three unused variables. The undefined
 
    6. The scrolling length and the awkward length of the Black Knight background image when displayed on smaller divices is also an issue of mine.
 
-[Back to top ⇧](#A Fighting Chance)
+   7. Landscape mode can be accessed on mobile devices, which distort the game on the phone.
+
+   8. When I was playing on the phone, I found I could scroll with my finger to other pages of the game, it might be useful..maybe.. but I originally didnt want that to happen.
+
+[Back to top](#a-fighting-chance)
 
 ## Finished Product
 
-  **Landing Page**
-   [Landing Page]()
+Displaying the finished product Desktop version and Mobile version respectively.
+
+   **Landing Page**
+   ![Landing Page Desktop](assets/readme-files/land-full.png)
+   ![Landing Page Mobile](assets/readme-files/landing-page.png)
 
    **Game Page**
-   [Landing Page]()
+   ![Game Page Desktop](assets/readme-files/game-full.png)
+   ![Game Page Mobile](assets/readme-files/game-page.png)
 
    **How to Play Page**
-   [Landing Page]()
+   ![How to Play Desktop](assets/readme-files/how-full.png)
+   ![How to Play Mobile](assets/readme-files/how-to-play.png)
 
    **About the Game Page**
-   [Landing Page]()
+   ![About the Game Desktop](assets/readme-files/about-full.png)
+   ![About the Game Mobile](assets/readme-files/abt-the-gme.png)
 
    **Rule list Page**
-   [Landing Page]()
+   ![Rule List Desktop](assets/readme-files/rule-full.png)
+   ![Rule List Mobile](assets/readme-files/rules-who.png)
 
    **GIF win/loss Page**
-   [Landing Page]()
-   [Landing Page]()
+   ![GIF win Desktop](assets/readme-files/win-full.png)
+   ![GIF win Mobile](assets/readme-files/gif-win.png)
+   ![GIF loose Desktop](assets/readme-files/loose-full.png)
+   ![GIF loose Mobile](assets/readme-files/gif-loose.png)
   
-[Back to top ⇧](#A Fighting Chance)
+  [Back to top](#a-fighting-chance)
 
 ## Deployment
 
+- This website was developed using [Codeanywhere](https://app.codeanywhere.com/), which was then committed and pushed to GitHub using the Codeanywhere terminal.
+
 ### GitHub Pages
 
-[Back to top ⇧](#A Fighting Chance)
+- Here are the steps to deploy this website to GitHub Pages from the GitHub repository:
+
+    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/).
+
+    2. At the top of the Repository, locate the Settings button on the menu.
+
+    3. Scroll down the Settings page and on the left side of the screen you will locate the Pages section.
+
+    4. Under Source, click the dropdown called deploy from a Branch.
+
+    5. In branch underneath source, click main and then save.
+
+    6. The page will refresh automatically and generate a link to your website.
+
+[Back to top](#a-fighting-chance)
 
 ## Credits
 
 ### Content
 
+- The instructions and rules were taken from the [Big Bang Theory Wiki](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock), and the theme of the game was taken from the Movie [Monty Python and the Holy Grail](https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail) which includes quotes, GIFs and Images.
+
 ### Media
+
+- The various images and GIFs were taken off various Google sites representing images from [Monty Python and the Holy Grail](https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail).
 
 ### Code
 
-[Back to top ⇧](#A Fighting Chance)
+- [Stack Overflow](https://stackoverflow.com/),and [W3Schools](https://www.w3schools.com/) were used on a regular basis for explaination and information about certain points of code.
+
+- The Youtube walkthrough challenge by [Competent Programming](https://www.youtube.com/watch?v=lV2BMXdsDmc&list=LL&index=3&t=3090s) for guidance on how to go about the code for the core game. To see his Github, click [here](https://github.com/CompetentProgramming/rock-paper-scissors-lizard-spock/)
+
+- For inspiration, the website of rpsls by [josswe](https://github.com/josswe26/rpsls/) for how to go about the section slides and how to go about scoring and implementing result actions in JavaScript, the structure of the Readme file but most of all just the inspiration of how the game was displayed.
+
+- The website [iCSS](https://segmentfault.com/a/1190000041044028/en) for the CSS code shape of all the buttons used throughout the game.
+
+- And all the other forgotten websites I went though during the course of this project, helpfull or not I can not name or remember them all.
+
+[Back to top](#a-fighting-chance)
 
 ## Acknowledgements
 
-[Back to top ⇧](#A Fighting Chance)
+- My Wife and Son, for their whole hearted support as I created this project.
+
+- My Dad, for his support and guidance on the bigger picture of things.
+
+- My tutor, Marcel Mulders, for his invaluable feedback and guidance.
+
+- My downstairs neighbour, Prianka, for telling me JavaScript will get easier (lol) .
+
+- Code Institute and its great Slack community for their support and providing me with necessary help for this project.
+
+- And of course my Lord and Saviour Jesus Christ, for getting me through the difficult and hard times I underwent throughout this project.
+
+[Back to top](#a-fighting-chance)
