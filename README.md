@@ -347,7 +347,37 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
 
 - The [W3C Markup Validator](https://validator.w3.org/) platform was used to validate the project in order to ensure there were no syntax errors.
 
-  - W3C Markup Validator returned a series of warnings concerning a possible misuse of aria-label. I considered this aria labels are being used to make available the icons in the rules popup available for the visually impaired.
+![HTML errors](assets/readme-files/html-validate-1.png)
+
+![HTML errors](assets/readme-files/html-validate-2.png)
+
+![HTML errors](assets/readme-files/html-validate-3.png)
+
+![HTML errors](assets/readme-files/html-validate-4.png)
+
+ W3C Markup Validator returned a series of minor errors easily mendable.
+
+- **HTML Bug fixes**
+
+ Three of the errors with additional warnings were of duplicate ids used through the project, so a simple process of changing them to classes and also changing them to classes in the CSS was done. A very small error of a / not being used in an H2 element caused multiple errors and when rectified solved 3 errors in itself, and lastly there was a stray div at the bottom of the HTML code which I removed.
+
+- The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) platform was used to validate the project in order to ensure there were no syntax errors.
+
+![CSS errors](assets/readme-files/css-validate-1.png)
+
+The W3C CSS Validator returned 4 simple errors all to do with the same thing.
+
+- **CSS Bug fixes**
+  
+A simple process of removing the brackets () from the 45 degrees in the linear gradient used in multiple occurances in the CSS solved all the problems
+
+- The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used validate the site's JavaScript code.
+
+![JavaScript errors](assets/readme-files/js-validate-1.png)
+
+JSHint returned one undefined variable and three unused variables. The undefined variable was just a misspelling of window, where there as no W. And as for the three unused variables, it was because they were onclick functions for inner HTML code that i assume was not read yet, therefore I removed most of my innerHTML code from my Javascript and instead on onclick code in my HTML, i used eventListners in my Javascript, listening for ids in buttons, this removed all the unused variables.
+ 
+ 
 
 ### Accessibility
 

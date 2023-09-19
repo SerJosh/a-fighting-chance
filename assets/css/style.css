@@ -101,13 +101,13 @@ p {
 
 /** Heading in Phone div **/
 
-#logo {
+.logo {
     font-size: 280%;
 }
 
 /** Images of knights in Landing page **/
 
-#all-knights {
+.all-knights {
     height: 150px;
     display: flex;
     width: 90%;
@@ -138,7 +138,7 @@ p {
     text-align: center;
     background-color: darkgreen;
     color: #fafafa;
-    background: linear-gradient(45deg);
+    background: linear-gradient 45deg;
     clip-path: polygon(15px 0,
             calc(100% - 15px) 0,
             100% 15px,
@@ -213,7 +213,7 @@ footer a:hover {
     text-align: center;
     background-color: darkgreen;
     color: #fafafa;
-    background: linear-gradient(45deg);
+    background: linear-gradient 45deg;
     clip-path: polygon(15px 0,
             calc(100% - 15px) 0,
             100% 15px,
@@ -454,7 +454,7 @@ hr {
     text-align: center;
     background-color: darkgreen;
     color: #fafafa;
-    background: linear-gradient(45deg);
+    background: linear-gradient 45deg;
     clip-path: polygon(15px 0,
             calc(100% - 15px) 0,
             100% 15px,
@@ -581,7 +581,7 @@ hr {
     text-align: center;
     background-color: darkgreen;
     color: #fafafa;
-    background: linear-gradient(45deg);
+    background: linear-gradient 45deg;
     clip-path: polygon(15px 0,
             calc(100% - 15px) 0,
             100% 15px,
@@ -592,7 +592,7 @@ hr {
             0 15px);
 }
 
-#rule-btn-div {
+.rule-btn-div {
     height: 40px;
 }
 
