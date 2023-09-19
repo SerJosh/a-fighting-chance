@@ -307,7 +307,47 @@ A list of Buttons, Play Again and Exit. Play again takes you back to the game pa
 
 ### Testing User Stories
 
+- As a player, I want the game to be easy to navigate.
+
+  - A section slide design has been used to move across the different sections of the game with ease.
+
+  - The game offers a simple design and structure of easy to read buttons for the player to find information or a section they are looking for.
+
+- As a player, I want the game to be fun and engaging.
+
+  - An image of the Black Knight facing you off behind your phone screen (750px +)  has been used to represent the context of game in a fun way, and also to kill off a lot of reponsive design work.
+
+  - The game's colour design has been used to contrast all readable information from a black background, creating clarity among text content, buttons and images.
+
+  - The game page displays the Knights chosen by both the player and the opponent in their respective left and right location, with a VS between them.
+
+  - The score for the game is being tracked and displayed at the bottom of the selectted Knights and result, between two lines so seperate the other information from the score.
+
+  - A Knight choice area is displayed at the bottom of the screen, clearly displaying the Knights you can use in the game.  
+
+  - A name input area is available for the player to put their desired name in (10 characters long) to use in the game, ofcourse this can be skipped if desired.
+
+  - The game result displays some fun GIFs from the movie, and each GIF depends if you won or lost.
+
+- As a player, I want to have easy access to the game rules and more about the game.
+
+  - A How to Play section button has been added in the Landing page for easy access to the How to Play section, which gives you a general summary of how the game works, also there is a Rules button in both How to Play and in the Game Page to display the exact details of which Knight beats which.
+
+  - The About the Game section is also accessed by a button in the Landing Page, taking you to the About the Game section, providing you with more insight and context about who you playing, why you playing and what the games about.
+
+- As a player, I want to be able to play the game on different devices.
+
+  - Responsive design across all device sizes.
+
+- As a player, I want to be able to access the games social media sites with ease
+
+  - A footer section which is at the bottom of the Landing Page is displayed, with all the games platforms availabe and open when clicked.
+
 ### Code Validation
+
+- The [W3C Markup Validator](https://validator.w3.org/) platform was used to validate the project in order to ensure there were no syntax errors.
+
+  - W3C Markup Validator returned a series of warnings concerning a possible misuse of aria-label. I considered this aria labels are being used to make available the icons in the rules popup available for the visually impaired.
 
 ### Accessibility
 
