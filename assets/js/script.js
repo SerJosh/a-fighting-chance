@@ -5,7 +5,7 @@
 document.getElementById("start-game-btn").addEventListener("click", function () {
     window.location.href = "#game-page";
     let inputValue = document.getElementById("name").value;
-    document.getElementById("player").innerText = inputValue;
+    document.getElementById("player").innerText = inputValue ? inputValue : "Sir Nameless";
 
 });
 
@@ -189,6 +189,9 @@ function game() {
     });
     /** Function for actions when game is started */
     function startGame() {
+        if (!userChoice) {
+            return;
+        }
         calculateWinner(userChoice, compChoice);
         userChoiceElement.classList.add('hidden');
         pickedElement.classList.remove('hidden');

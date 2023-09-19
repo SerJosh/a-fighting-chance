@@ -35,6 +35,7 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [Accessibility](#accessibility)
     - [Tools Testing](#tools-testing)
     - [Manual Testing](#manual-testing)
+    - [Known Bugs](#known-bugs)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -377,7 +378,7 @@ A simple process of removing the linear gradient used in multiple occurances in 
 
 ![JavaScript errors](assets/readme-files/js-validate-1.png)
 
-JSHint returned one undefined variable and three unused variables. The undefined variable was just a misspelling of window, where there as no W. And as for the three unused variables, it was because they were onclick functions for inner HTML code that i assume was not read yet, therefore I removed most of my innerHTML code from my Javascript and instead on onclick code in my HTML, i used eventListners in my Javascript, listening for ids in buttons, this removed all the unused variables.
+JSHint returned one undefined variable and three unused variables. The undefined variable was just a misspelling of window, where there as no W. And as for the three unused variables, it was because they were onclick functions for inner HTML code that i assume was not read yet, therefore I removed most of my innerHTML code from my Javascript and instead on onclick code in my HTML, i used eventListners in my Javascript, listening for ids in buttons, this removed all the unused variables. There was also one console issue with the name of an onclick function of PlayerName() which i have removed.
 
 ### Accessibility
 
@@ -495,25 +496,23 @@ JSHint returned one undefined variable and three unused variables. The undefined
 
   - Content is responsive and displays correctly.
 
-- Known Bugs
+### Known Bugs
 
  There are several thing I have noticed throughout the creation of the project, they are not obvious errors but they are there and I would have liked to improve them if not for time constraints.
   
-   1. Undefined is displayed if clicked very close to the Knight choice image, but not exactly on it, resulting in an automatic loss.
-  
-   2. The phone screen when displayed on bigger screens is much higher that I wanted, I wanted it to be more in the center.
+   1. The phone screen when displayed on bigger screens is much higher that I wanted, I wanted it to be more in the center.
 
-   3. The section slides go though other pages, giving you a brief (and i mean very brief) glimps of other pages as you go down the HTML code.
+   2. The section slides go though other pages, giving you a brief (and i mean very brief) glimps of other pages as you go down the HTML code.
 
-   4. The name was originally intended to be mandatory before going to the game page, but I left the option open if a palyer wants to choose a name or not.
+   3. When accessing the About the Game section from the Landing page, you do see the brief glimpses of other pages, but there is also a tiny little jump if you look carefully whilst going to that page.
 
-   5. When accessing the About the Game section from the Landing page, you do see the brief glimpses of other pages, but there is also a tiny little jump if you look carefully whilst going to that page.
+   4. The scrolling length and the awkward length of the Black Knight background image when displayed on smaller divices is also an issue of mine.
 
-   6. The scrolling length and the awkward length of the Black Knight background image when displayed on smaller divices is also an issue of mine.
+   5. Landscape mode can be accessed on mobile devices, which distort the game on the phone.
 
-   7. Landscape mode can be accessed on mobile devices, which distort the game on the phone.
+   6. When I was playing on the phone, I found I could scroll with my finger to other pages of the game, it might be useful..maybe.. but I originally didnt want that to happen.
 
-   8. When I was playing on the phone, I found I could scroll with my finger to other pages of the game, it might be useful..maybe.. but I originally didnt want that to happen.
+   7. I did not Know how to vaildate the inner HTML in the Javascript code, but everything seems to be working just fine.
 
 [Back to top](#a-fighting-chance)
 
