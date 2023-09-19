@@ -35,7 +35,6 @@ Visit the deployed website [here](https://serjosh.github.io/a-fighting-chance/).
     - [Accessibility](#accessibility)
     - [Tools Testing](#tools-testing)
     - [Manual Testing](#manual-testing)
-    - [Known Bugs](#known-bugs)
   - [Finished Product](#finished-product)
   - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
@@ -415,16 +414,123 @@ JSHint returned one undefined variable and three unused variables. The undefined
 
    No responsiveness nor functionality issues, however the phone for some reason goes over the image in the back at the bottom revealing a thin layer of white at the bottom but on full screen there are no issues.
 
-### Known Bugs
+- Device Compatibility
 
- There are several thing I have noticed throughout the creation of the project, they are not obvious errors but they are there and I would like to improve them if I had more time.
+   **Desktop"24"**
+   No appearance, responsiveness nor functionality issues.
 
-- 
+   **Notebook "15"**
+   No appearance, responsiveness nor functionality issues.
+
+   **Nexus 7**
+   No appearance, responsiveness nor functionality issues.
+
+   **Apple iPhone 5/5s**
+   No appearance, responsiveness nor functionality issues.
+
+   **Samsung Galaxy S5/S6/S7**
+   No appearance, responsiveness nor functionality issues.
+
+   **Google Pixel**
+   No appearance, responsiveness nor functionality issues.
+
+  - Common Elements Testing
+
+    **General**
+
+  - Buttons: All hover effects and javascript changes happening as expected
+
+  - Section Slides: All moving to each part of the HTML page as expected
+
+  - Wide screen background: Background(750px +) displaying and not displaying ( at 749px -)  as expected.
+
+  - Images throughouut the page displaying and responding correctly.
+
+    **Landing Page**
+
+  - Name input working and linking to game page as expected.
+
+  - Footer social media links working as expected
+
+    **Game Page**
+
+  - Player and opponent score increase by 1 when they win.
+
+  - Knight is displayed when chosen byy each player and opponent.
+
+  - All buttons (including the Knight choices) working as expected.
+
+  - Name is shown if the player has chosen a name.
+
+    **GIF section**
+
+  - All buttons working in each GIF result.
+
+  - All GIF animations for each GIF result are displaying and responding.
+
+  - All GIF results express if won or lost.
+
+    **Rule List**
+
+  - All buttons to the Rule list working as expected (How to Play page and Game page)
+
+  - Back button for each Rule list accessed (How to Play page and Game page) goes back to its original page as expected
+
+  - The actual rule list is displayed and readable on all devices.
+
+    **How to Play**
+
+  - All buttons in the How to Play working as expected.
+
+  - Access to Rule list and back button working as expected.
+
+  - Content is responsive and displays correctly.
+
+    **About the Game**
+
+  - Back button is working as expected.
+
+  - Content is responsive and displays correctly.
+
+- Known Bugs
+
+ There are several thing I have noticed throughout the creation of the project, they are not obvious errors but they are there and I would have liked to improve them if not for time constraints.
+  
+   1. Undefined is displayed if clicked very close to the Knight choice image, but not exactly on it, resulting in an automatic loss.
+  
+   2. The phone screen when displayed on bigger screens is much higher that I wanted, I wanted it to be more in the center.
+
+   3. The section slides go though other pages, giving you a brief (and i mean very brief) glimps of other pages as you go down the HTML code.
+
+   4. The name was originally intended to be mandatory before going to the game page, but I left the option open if a palyer wants to choose a name or not.
+
+   5. When accessing the About the Game section from the Landing page, you do see the brief glimpses of other pages, but there is also a tiny little jump if you look carefully whilst going to that page.
+
+   6. The scrolling length and the awkward length of the Black Knight background image when displayed on smaller divices is also an issue of mine.
 
 [Back to top ⇧](#A Fighting Chance)
 
 ## Finished Product
 
+  **Landing Page**
+   [Landing Page]()
+
+   **Game Page**
+   [Landing Page]()
+
+   **How to Play Page**
+   [Landing Page]()
+
+   **About the Game Page**
+   [Landing Page]()
+
+   **Rule list Page**
+   [Landing Page]()
+
+   **GIF win/loss Page**
+   [Landing Page]()
+   [Landing Page]()
+  
 [Back to top ⇧](#A Fighting Chance)
 
 ## Deployment
