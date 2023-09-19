@@ -1,6 +1,6 @@
 # A Fighting Chance
 
-Image
+![A Fighting Chance on different divices](assets/readme-files/readme-main.png)
 
 A Fighting Chance is a Rock, Paper, Scissors, Lizard, Spock game but with a Monty Python and the Holy Grail Theme, which in itself is also an extension of the classic game of chance, Rock Paper Scissors. Rock, Paper, Scissors, Lizard, Spock was mentioned in *The Times* of London in 2005 and was later the subject of an episode of the American sitcom *The Big Bang Theory* in 2008, and *Monty Python and the Holy Grail* is a British comedy movie made in 1975.
 
@@ -401,7 +401,25 @@ JSHint returned one undefined variable and three unused variables. The undefined
 
 ### Manual Testing
 
+- Browser Compatibility
+
+   **Google Chrome**
+
+   No appearance, responsiveness nor functionality issues.
+
+   **Mozilla Firefox**
+
+   No appearance, responsiveness nor functionality issues, however it does take a while to load at times.
+
+   **Microsoft Edge**
+
+   No responsiveness nor functionality issues, however the phone for some reason goes over the image in the back at the bottom revealing a thin layer of white at the bottom but on full screen there are no issues.
+
 ### Known Bugs
+
+ There are several thing I have noticed throughout the creation of the project, they are not obvious errors but they are there and I would like to improve them if I had more time.
+
+- 
 
 [Back to top ⇧](#A Fighting Chance)
 
