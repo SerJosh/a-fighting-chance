@@ -369,19 +369,35 @@ The W3C CSS Validator returned 4 simple errors all to do with the same thing.
 
 - **CSS Bug fixes**
   
-A simple process of removing the brackets () from the 45 degrees in the linear gradient used in multiple occurances in the CSS solved all the problems
+A simple process of removing the linear gradient used in multiple occurances in the CSS solved all the problems
 
 - The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used validate the site's JavaScript code.
 
 ![JavaScript errors](assets/readme-files/js-validate-1.png)
 
 JSHint returned one undefined variable and three unused variables. The undefined variable was just a misspelling of window, where there as no W. And as for the three unused variables, it was because they were onclick functions for inner HTML code that i assume was not read yet, therefore I removed most of my innerHTML code from my Javascript and instead on onclick code in my HTML, i used eventListners in my Javascript, listening for ids in buttons, this removed all the unused variables.
- 
- 
 
 ### Accessibility
 
+- Used Lighthouse in Chrome DevTools to confirm that the colors and fonts being used in throughout the website are easy to read and accessible.
+
+- Lighthouse reports
+
+  - **index.html**
+  
+  ![Lighthouse report](assets/readme-files/lighthouse.png)
+
 ### Tools Testing
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+  - Chrome DevTools was used during the development process of the project to test, modify HTML elements and CSS styles, test responsiveness and see if the Javascript did what it needed to in the project.
+
+- Responsiveness
+
+  - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the game across different devices.
+
+  - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness of the game on different screen sizes.
 
 ### Manual Testing
 

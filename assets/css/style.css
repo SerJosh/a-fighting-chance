@@ -617,7 +617,7 @@ hr {
 
 @media screen and (max-width:449px) {
 
-    #all-knights {
+    .all-knights {
         height: 120px;
     }
 
@@ -628,7 +628,7 @@ hr {
 
 @media screen and (max-width:399px) {
 
-    #all-knights {
+    .all-knights {
         height: 100px;
     }
 }
